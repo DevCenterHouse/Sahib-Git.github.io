@@ -1,0 +1,22 @@
+.ad-photo-viewer {
+	.mat-mdc-fab.photo-view {
+		border-radius: 0%;
+		width: 32px;
+		height: 30px;
+
+		.mat-mdc-button-persistent-ripple.mdc-fab__ripple {
+			border-radius: unset !important;
+		}
+	}
+}
+//using it in AdPhotoviewer and AdItem Component
+.mat-mdc-fab.whats-app {
+	width: 52px;
+	height: 40px;
+	border-radius: 4px !important;
+	box-shadow: unset;
+
+	.mat-mdc-button-persistent-ripple.mdc-fab__ripple {
+		border-radius: unset !important;
+	}
+}

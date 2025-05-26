@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/general/filters/components/base-filters/base-filters.component.scss"],
+  "sourcesContent": [":host {\n\tdisplay: block;\n\theight: 100%;\n}\n\n.container-fluid {\n\theight: calc(100% - 85px) !important;\n}\n\n.h-75 {\n\theight: 75% !important;\n}\n\n.h-70 {\n\theight: 70% !important;\n}\n"],
+  "mappings": ";AAAA;AACC,WAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA,KAAA,KAAA,EAAA;;AAGD,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,UAAA;;",
+  "names": []
+}

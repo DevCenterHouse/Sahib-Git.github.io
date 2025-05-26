@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/pages/welcome-business/welcome-business.page.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 600px !important;\n\theight: calc(100vh - 64px);\n}\n\n.feature-container {\n\tmax-width: 375px !important;\n\n\t.continue-button {\n\t\tmargin-top: 32px !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,UAAA,KAAA,MAAA,EAAA;;AAGD,CAAA;AACC,aAAA;;AAEA,CAHD,kBAGC,CAAA;AACC,cAAA;;",
+  "names": []
+}

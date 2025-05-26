@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/components/time-slot/time-slot.component.scss"],
+  "sourcesContent": [".m-width-65px {\n\tmin-width: 65px;\n}\n\n.row {\n\tmin-height: 56px !important;\n}\n\n.row.auto-stretch {\n\tmin-height: auto !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;;AAGD,CAAA;AACC,cAAA;;AAGD,CAJA,GAIA,CAAA;AACC,cAAA;;",
+  "names": []
+}

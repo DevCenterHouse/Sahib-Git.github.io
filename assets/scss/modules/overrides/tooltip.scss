@@ -1,0 +1,19 @@
+/** Mat tooltip general css
+**/
+
+.mat-mdc-tooltip {
+	--mdc-plain-tooltip-container-color: var(--general-4);
+	--mdc-plain-tooltip-supporting-text-color: var(--general-1);
+	--mdc-plain-tooltip-supporting-text-size: 12px;
+	--mdc-plain-tooltip-supporting-text-line-height: 18px;
+}
+
+.mdc-tooltip__surface {
+	padding: 8px !important;
+}
+
+.auto-stretch-tooltip {
+	.mdc-tooltip__surface {
+		max-width: 300px !important;
+	}
+}

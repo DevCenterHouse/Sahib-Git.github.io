@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/components/invitee-meeting-form/invitee-meeting-form.component.scss"],
+  "sourcesContent": [".resize-none {\n\tresize: none !important;\n}\n\n.guest-email-container {\n\tmax-width: 509px !important;\n}\n\n.w-40px {\n\twidth: 40px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,aAAA;;AAGD,CAAA;AACC,SAAA;;",
+  "names": []
+}

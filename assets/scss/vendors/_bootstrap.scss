@@ -1,0 +1,108 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		/* TEXT-END/TEXT-START */
+		.text#{$infix}-start {
+			text-align: start !important;
+		}
+		.text#{$infix}-end {
+			text-align: end !important;
+		}
+
+		/* MARGIN AUTO */
+		.ms#{$infix}-auto {
+			margin-left: unset !important;
+			margin-inline-start: auto !important;
+		}
+		.me#{$infix}-auto {
+			margin-right: unset !important;
+			margin-inline-end: auto !important;
+		}
+
+		/* Set Bootstrap CSS classes with spacer values */
+		@each $spacer, $value in $spacers {
+			/* MARGIN */
+			.ms#{$infix}-#{$spacer} {
+				margin-left: unset !important;
+				margin-inline-start: #{$value} !important;
+			}
+			.me#{$infix}-#{$spacer} {
+				margin-right: unset !important;
+				margin-inline-end: #{$value} !important;
+			}
+
+			/* PADDING */
+			.ps#{$infix}-#{$spacer} {
+				padding-left: unset !important;
+				padding-inline-start: #{$value} !important;
+			}
+			.pe#{$infix}-#{$spacer} {
+				padding-right: unset !important;
+				padding-inline-end: #{$value} !important;
+			}
+		}
+
+		/* COLUMN */
+		// Remove the padding-x as it's not as being used in the design
+		.col#{$infix},
+		.col#{$infix}-auto {
+			padding-right: 0;
+			padding-left: 0;
+		}
+
+		// .col-sm {
+		// 	padding-right: 0;
+		// 	padding-left: 0;
+		// }
+		@for $i from 1 through 12 {
+			.col#{$infix}-#{$i} {
+				padding-right: 0;
+				padding-left: 0;
+			}
+		}
+
+		/* TEXT ALIGN */
+		.text#{$infix}-start {
+			text-align: start !important;
+		}
+		.text#{$infix}-end {
+			text-align: end !important;
+		}
+
+		/* WIDTH */
+		.min-w#{$infix}-0 {
+			// HACK: Use min-width: 0 in `columns` to force equal column width regardless of their content
+			min-width: 0 !important;
+		}
+	}
+}
+
+/* CONTAINER */
+.container,
+.container-fluid {
+	// Add padding in smaller screen
+	padding: 0 16px;
+
+	@include media-breakpoint-up(xl) {
+		// Removing the padding because the desktop view shoudlve have a full width of 1200px.
+		padding: 0;
+	}
+}
+
+/* ROW */
+.row,
+.row > * {
+	// Remove the margin-x and padding-x as it's not as being used in the design
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* COLUMN */
+.col {
+	// Remove the padding-x as it's as being used in the design
+	padding-right: 0;
+	padding-left: 0;
+}

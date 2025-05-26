@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/services/destroy.service.ts"],
+  "sourcesContent": ["import { Injectable, OnDestroy } from '@angular/core';\nimport { Observable, ReplaySubject } from 'rxjs';\n\n/**\n * Using Destroy provider to avoid repeating the same teardown logic in each component.\n * When a provider is provided at component level, it will be tied to the component life cycle which allows us to use the ngOnDestroy lifecycle method within it.\n */\n\n@Injectable()\nexport class DestroyService extends Observable<void> implements OnDestroy {\n\tprivate readonly destroySubject = new ReplaySubject<void>(1);\n\n\tconstructor() {\n\t\t// emit destroy event to all subscribers when destroy subject emits\n\t\tsuper((subscriber) => this.destroySubject.subscribe(subscriber));\n\t}\n\n\tngOnDestroy(): void {\n\t\t// emit destroy event when component that injects\n\t\t// `Destroy` provider is destroyed\n\t\tthis.destroySubject.next();\n\t\tthis.destroySubject.complete();\n\t}\n}\n"],
+  "mappings": ";;;;;;;;;AASM,IAAO,iBAAP,MAAO,wBAAuB,WAAgB;EAGnD,cAAA;AAEC,UAAM,CAAC,eAAe,KAAK,eAAe,UAAU,UAAU,CAAC;AAJ/C,SAAA,iBAAiB,IAAI,cAAoB,CAAC;EAK3D;EAEA,cAAW;AAGV,SAAK,eAAe,KAAI;AACxB,SAAK,eAAe,SAAQ;EAC7B;;;uCAbY,iBAAc;IAAA;EAAA;;4EAAd,iBAAc,SAAd,gBAAc,UAAA,CAAA;EAAA;;;sEAAd,gBAAc,CAAA;UAD1B;;;",
+  "names": []
+}

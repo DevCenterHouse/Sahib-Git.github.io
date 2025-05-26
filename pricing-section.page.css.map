@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/sellerLead/prcing-section.page/pricing-section.page.scss"],
+  "sourcesContent": [".text-subheading-medium {\n\tline-height: 16px;\n}\n.title-container {\n\tgap: 8px;\n\tflex-direction: column;\n}\n.table {\n\tborder-radius: 4px;\n\tborder: 1px solid var(--neutral-2);\n}\n.btn-subscribe {\n\theight: 40px;\n\twidth: 223px;\n\tborder-radius: 4px;\n}\ntable {\n\ttd,\n\tth {\n\t\tborder: 1px solid var(--neutral-2) !important; /* Light grey border */\n\t\tpadding: 16px 12px 16px 16px !important;\n\t}\n\n\tth.subscription-offers,\n\ttd.subscription-offers {\n\t\tmax-width: 638px;\n\t\tword-wrap: break-word;\n\t}\n\n\ttd.subscription-offers > findqo-subscription-offers {\n\t\tdisplay: block;\n\t\tmargin-right: 180px;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,eAAA;;AAED,CAAA;AACC,OAAA;AACA,kBAAA;;AAED,CAAA;AACC,iBAAA;AACA,UAAA,IAAA,MAAA,IAAA;;AAED,CAAA;AACC,UAAA;AACA,SAAA;AACA,iBAAA;;AAGA,MAAA;AAAA,MAAA;AAEC,UAAA,IAAA,MAAA,IAAA;AACA,WAAA,KAAA,KAAA,KAAA;;AAGD,MAAA,EAAA,CAAA;AAAA,MAAA,EAAA,CAAA;AAEC,aAAA;AACA,aAAA;;AAGD,MAAA,EAAA,CANA,oBAMA,EAAA;AACC,WAAA;AACA,gBAAA;;",
+  "names": []
+}

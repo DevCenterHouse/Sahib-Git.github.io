@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/place-ad-room-control/place-ad-room-control.component.scss"],
+  "sourcesContent": [".add-btn {\n\theight: 40px;\n\tline-height: 40px;\n\tmax-width: 115px;\n\t& * {\n\t\tvertical-align: middle;\n\t}\n\tinput {\n\t\theight: 100%;\n\t}\n}\n\n.round-btn {\n\twidth: 40px !important;\n\theight: 40px !important;\n\tbox-shadow: unset;\n\tborder-radius: 50% !important;\n\tmin-width: unset !important;\n\n\t.mat-icon {\n\t\tmargin-inline-start: auto !important;\n\t\tmargin-inline-end: auto !important;\n\t}\n}\n\n.input-width {\n\tmax-width: 30px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;AACA,eAAA;AACA,aAAA;;AACA,CAJD,QAIC;AACC,kBAAA;;AAED,CAPD,QAOC;AACC,UAAA;;AAIF,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA;AACA,iBAAA;AACA,aAAA;;AAEA,CAPD,UAOC,CAAA;AACC,uBAAA;AACA,qBAAA;;AAIF,CAAA;AACC,aAAA;;",
+  "names": []
+}

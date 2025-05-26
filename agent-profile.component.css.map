@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/home/components/agent-profile/agent-profile.component.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 200px !important;\n\n\timg {\n\t\theight: 145px !important;\n\t}\n}\n\n.text-wrap {\n\tword-break: break-word;\n}\n\n.agent-border {\n\tborder: 1px solid var(--neutral-1);\n\tborder-radius: 8px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;;AAEA,CAHD,UAGC;AACC,UAAA;;AAIF,CAAA;AACC,cAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/findqo-ad/findqo-ad.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { FindqoAdComponent } from './findqo-ad.component';\nimport { CommonModule, NgOptimizedImage } from '@angular/common';\nimport { RouterModule } from '@angular/router';\n\n@NgModule({\n\tdeclarations: [FindqoAdComponent],\n\timports: [CommonModule, NgOptimizedImage, RouterModule],\n\texports: [FindqoAdComponent],\n})\nexport class FindqoAdModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAUM,IAAO,iBAAP,MAAO,gBAAc;;;uCAAd,iBAAc;IAAA;EAAA;;wEAAd,gBAAc,CAAA;EAAA;;4EAHhB,cAAgC,YAAY,EAAA,CAAA;EAAA;;;sEAG1C,gBAAc,CAAA;UAL1B;WAAS;MACT,cAAc,CAAC,iBAAiB;MAChC,SAAS,CAAC,cAAc,kBAAkB,YAAY;MACtD,SAAS,CAAC,iBAAiB;KAC3B;;;",
+  "names": []
+}

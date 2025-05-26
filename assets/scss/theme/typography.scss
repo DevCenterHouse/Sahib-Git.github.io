@@ -1,0 +1,260 @@
+@import 'assets/scss/utils/mixins';
+
+/**
+* NOTE: Ireland version typography (Theme v2) can be also use on other places even though it's not included in Ireland website design. But in the Figma, Iraq version is still using the Theme v1.
+*/
+
+/* FONT SIZES */
+
+$sizes: 32px, 24px, 22px, 20px, 18px, 16px, 14px, 12px, 10px;
+
+@each $size in $sizes {
+	.fs-#{$size} {
+		font-size: $size !important;
+	}
+}
+
+/* FONT HEIGHTS */
+
+$heights: 40px, 28px, 24px, 22px, 20px, 18px, 16px;
+
+@each $height in $heights {
+	.lh-#{$height} {
+		line-height: $height !important;
+	}
+}
+
+/* FONT WEIGHTS */
+
+$weights: 700, 600, 500, 400;
+
+@each $weight in $weights {
+	.fw-#{$weight} {
+		font-weight: $weight !important;
+	}
+}
+
+/* BOOTSTRAP BREAKPOINTS */
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+		/* FONT SIZES */
+		@each $size in $sizes {
+			.fs#{$infix}-#{$size} {
+				font-size: $size !important;
+			}
+		}
+		/* LINE HEIGTHS */
+		@each $height in $heights {
+			.lh#{$infix}-#{$height} {
+				line-height: $height !important;
+			}
+		}
+
+		/* FONT WEIGHTS */
+		@each $weight in $weights {
+			.fw#{$infix}-#{$weight} {
+				font-weight: $weight !important;
+			}
+		}
+
+		/* TITLE */
+		.text-title#{$infix}-32px-bold {
+			font-size: 2rem !important;
+			font-weight: 700 !important;
+		}
+		.text-title#{$infix}-24px-medium {
+			font-size: 1.5rem !important;
+			font-weight: 500 !important;
+		}
+		.text-title#{$infix}-24px-regular {
+			font-size: 1.5rem !important;
+			font-weight: 400 !important;
+		}
+		.text-title#{$infix}-20px-medium {
+			font-size: 1.25rem !important;
+			font-weight: 500 !important;
+		}
+		.text-title#{$infix}-20px-regular {
+			font-size: 1.25rem !important;
+			font-weight: 400 !important;
+		}
+		.text-title#{$infix}-16px-medium {
+			font-size: 1rem !important;
+			font-weight: 500 !important;
+		}
+		.text-title#{$infix}-16px-regular {
+			font-size: 1rem !important;
+			font-weight: 400 !important;
+		}
+
+		/* BODY */
+		.text-body#{$infix}-20px-medium {
+			font-size: 1.25rem !important;
+			font-weight: 500 !important;
+		}
+		.text-body#{$infix}-20px-regular {
+			font-size: 1.25rem !important;
+			font-weight: 400 !important;
+		}
+		.text-body#{$infix}-16px-medium {
+			font-size: 1rem !important;
+			font-weight: 500 !important;
+		}
+		.text-body#{$infix}-16px-regular {
+			font-size: 1rem !important;
+			font-weight: 400 !important;
+		}
+
+		/* SMALL */
+		.text-small#{$infix}-14px-regular {
+			font-size: 0.875rem !important;
+			font-weight: 400 !important;
+		}
+		.text-small#{$infix}-12px-medium {
+			font-size: 0.75rem !important;
+			font-weight: 500 !important;
+		}
+		.text-small#{$infix}-12px-regular {
+			font-size: 0.75rem !important;
+			font-weight: 400 !important;
+		}
+		.text-small#{$infix}-10px-medium {
+			font-size: 0.625rem !important;
+			font-weight: 500 !important;
+		}
+		.text-small#{$infix}-10px-regular {
+			font-size: 0.625rem !important;
+			font-weight: 400 !important;
+		}
+
+		/* LINKS */
+		.link#{$infix}-16px-regular {
+			font-size: 1rem !important;
+			color: $link-color !important;
+		}
+		.link#{$infix}-14px-regular {
+			font-size: 0.875rem !important;
+			color: $link-color !important;
+		}
+		.link#{$infix}-12px-regular {
+			font-size: 0.75rem !important;
+			color: $link-color !important;
+		}
+
+		/* SUBHEADINGS (V2 - IRELAND VERSION) */
+		.text-subheading#{$infix}-regular {
+			font-size: 0.875rem !important;
+			font-weight: 400 !important;
+			text-transform: uppercase !important;
+		}
+		.text-subheading#{$infix}-medium {
+			font-size: 0.875rem !important;
+			font-weight: 500 !important;
+			text-transform: uppercase !important;
+		}
+
+		/* BODY (V2 - IRELAND VERSION) */
+		.text-body#{$infix}-regular {
+			font-size: 0.875rem !important;
+			font-weight: 400 !important;
+			line-height: 1.125rem;
+		}
+		.text-body#{$infix}-medium {
+			font-size: 0.875rem !important;
+			font-weight: 500 !important;
+			line-height: 1.125rem;
+		}
+
+		/* PARAGRAPH (V2 - IRELAND VERSION) */
+		.text-paragraph#{$infix}-regular {
+			font-size: 0.875rem !important;
+			font-weight: 400 !important;
+		}
+
+		/* CAPTION (V2 - IRELAND VERSION) */
+		.text-caption#{$infix}-regular {
+			font-size: 0.75rem !important;
+			font-weight: 400 !important;
+			line-height: 1rem;
+		}
+		.text-caption#{$infix}-medium {
+			font-size: 0.75rem !important;
+			font-weight: 500 !important;
+			line-height: 1rem;
+		}
+		.text-caption-2#{$infix}-regular {
+			font-size: 0.625rem !important;
+			font-weight: 400 !important;
+			line-height: 0.875rem;
+		}
+		.text-caption-2#{$infix}-medium {
+			font-size: 0.625rem !important;
+			font-weight: 500 !important;
+			line-height: 0.875rem;
+		}
+
+		.heading-3#{$infix}-medium {
+			font-size: 1.25rem !important;
+			line-height: 1.5rem !important;
+			font-weight: 500 !important;
+			margin: 0;
+		}
+	}
+}
+
+/* HEADINGS (V2 - IRELAND VERSION) */
+.heading-1 {
+	font-size: 1.75rem;
+	line-height: 2rem;
+	font-weight: 600;
+	margin: 0;
+}
+.heading-2 {
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+	font-weight: 600;
+	margin: 0;
+}
+.heading-2-medium {
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+	font-weight: 500;
+	margin: 0;
+}
+.heading-3 {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+	margin: 0;
+}
+.heading-3-regular {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	margin: 0;
+}
+.heading-3-medium {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+	margin: 0;
+}
+.heading-4 {
+	font-size: 1rem;
+	line-height: 1.25rem;
+	font-weight: 600;
+	margin: 0;
+}
+.heading-4-medium {
+	font-size: 1rem;
+	line-height: 1.25rem;
+	font-weight: 500;
+	margin: 0;
+}
+.heading-4-regular {
+	font-size: 1rem;
+	line-height: 1.25rem;
+	font-weight: 400;
+	margin: 0;
+}

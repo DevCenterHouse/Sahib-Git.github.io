@@ -1,0 +1,98 @@
+.cdk-overlay-pane.filter-form {
+	margin-inline-start: auto;
+	max-width: 100% !important;
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+
+	@include media-breakpoint-up(sm) {
+		max-width: 400px !important;
+	}
+}
+
+.action-btn-container.mat-mdc-icon-button.mat-mdc-button-base {
+	width: 30px !important;
+	height: 30px !important;
+	padding: 0px !important;
+}
+
+.rounded-8px {
+	@include media-breakpoint-up(sm) {
+		border-radius: 8px !important;
+	}
+}
+
+findqo-basic-information {
+	.row-cols-md-2 > * {
+		width: 47% !important;
+	}
+}
+
+findqo-listings {
+	.mat-mdc-icon-button {
+		&:not(:disabled) {
+			width: 48px !important;
+			height: 48px !important;
+			padding: 12px !important;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.mat-mdc-paginator-page-size {
+			display: none !important;
+		}
+
+		.mat-mdc-paginator-range-label {
+			margin: 0 !important;
+		}
+	}
+}
+
+findqo-enquiries {
+	.mat-mdc-icon-button {
+		&:not(:disabled) {
+			width: 48px !important;
+			height: 48px !important;
+			padding: 12px !important;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.mat-mdc-paginator-page-size {
+			display: none !important;
+		}
+
+		.mat-mdc-paginator-range-label {
+			margin: 0 !important;
+		}
+	}
+}
+
+findqo-agents {
+	.mat-mdc-icon-button {
+		&:not(:disabled) {
+			width: 48px !important;
+			height: 48px !important;
+			padding: 12px !important;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.mat-mdc-paginator-page-size {
+			display: none !important;
+		}
+
+		.mat-mdc-paginator-range-label {
+			margin: 0 !important;
+		}
+	}
+}
+
+findqo-ad-photos {
+	.swiper-button-disabled {
+		visibility: hidden !important;
+		opacity: 0 !important;
+		transition: 0.5s ease-in-out !important;
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/guards/seo/seo.guard.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } from '@angular/router';\nimport { SeoService } from '@core/services/seo.service';\nimport { environment } from '@environments/environment';\nimport { Observable } from 'rxjs';\n\n@Injectable({\n\tprovidedIn: 'root',\n})\nexport class SeoGuard {\n\tconstructor(private readonly seoService: SeoService) {}\n\n\tcanActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {\n\t\tthis.seoService.setSeo({\n\t\t\ttitle: route.data['title'],\n\t\t\tdescription: route.data['description'],\n\t\t\tincludeTitleSuffix: route.data['includeTitleSuffix'],\n\t\t\turl: `${environment.appUrl}${state.url}`,\n\t\t});\n\n\t\treturn true;\n\t}\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;AASM,IAAO,WAAP,MAAO,UAAQ;EACpB,YAA6B,YAAsB;AAAtB,SAAA,aAAA;EAAyB;EAEtD,YAAY,OAA+B,OAA0B;AACpE,SAAK,WAAW,OAAO;MACtB,OAAO,MAAM,KAAK,OAAO;MACzB,aAAa,MAAM,KAAK,aAAa;MACrC,oBAAoB,MAAM,KAAK,oBAAoB;MACnD,KAAK,GAAG,YAAY,MAAM,GAAG,MAAM,GAAG;KACtC;AAED,WAAO;EACR;;;uCAZY,WAAQ,mBAAA,UAAA,CAAA;IAAA;EAAA;;4EAAR,WAAQ,SAAR,UAAQ,WAAA,YAFR,OAAM,CAAA;EAAA;;;sEAEN,UAAQ,CAAA;UAHpB;WAAW;MACX,YAAY;KACZ;;;",
+  "names": []
+}

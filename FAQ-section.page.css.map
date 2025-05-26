@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/sellerLead/FAQ-section.page/FAQ-section.page.scss"],
+  "sourcesContent": [".faq-container {\n\tpadding-top: 24px;\n\tpadding-bottom: 24px;\n\tflex-direction: column;\n\tjustify-content: center;\n\tgap: 16px;\n}\n.title {\n\tflex-direction: column;\n\tjustify-content: center;\n\tgap: 8px;\n\tpadding-bottom: 8px;\n}\n\n.faq-list {\n\t.border {\n\t\tborder: 1px solid var(--neutral-2);\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,eAAA;AACA,kBAAA;AACA,kBAAA;AACA,mBAAA;AACA,OAAA;;AAED,CAAA;AACC,kBAAA;AACA,mBAAA;AACA,OAAA;AACA,kBAAA;;AAIA,CAAA,SAAA,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;;",
+  "names": []
+}

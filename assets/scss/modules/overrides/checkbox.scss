@@ -1,0 +1,28 @@
+.time-stretch.mat-mdc-checkbox .mdc-checkbox .mdc-checkbox__native-control:enabled:not(:checked) ~ .mdc-checkbox__background {
+	border-color: var(--general-3) !important;
+}
+
+.time-stretch.mat-mdc-checkbox {
+	.mdc-form-field {
+		color: var(--general-3) !important;
+		padding: 0 !important;
+		label {
+			padding: 0 !important;
+		}
+	}
+}
+
+// Alert modal, checkbox
+.property-alert-dialog {
+	.mdc-checkbox .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark {
+		padding: 2px;
+		width: 15px;
+		margin: 1px;
+	}
+
+	max-width: 100% !important;
+
+	@include media-breakpoint-up(sm) {
+		max-width: 590px !important;
+	}
+}

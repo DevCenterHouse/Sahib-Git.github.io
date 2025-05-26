@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/ad-photo-viewer/ad-photo-viewer.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\n\nimport { AdPhotoViewerComponent } from './ad-photo-viewer.component';\nimport { SharedModule } from '@shared/shared.module';\nimport { ButtonModule } from '@shared/components/button/button.module';\nimport { MatDialogModule } from '@angular/material/dialog';\nimport { CommonModule } from '@angular/common';\nimport { MatTooltipModule } from '@angular/material/tooltip';\nimport { AdsImageCarouselComponent } from '@feature/ad-detail/component/ad-image-carousel/ad-image-carousel.component';\n\n@NgModule({\n\tdeclarations: [AdPhotoViewerComponent],\n\timports: [SharedModule, AdsImageCarouselComponent, ButtonModule, MatDialogModule, CommonModule, MatTooltipModule],\n\texports: [AdPhotoViewerComponent],\n})\nexport class AdPhotoViewerModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAeM,IAAO,sBAAP,MAAO,qBAAmB;;;uCAAnB,sBAAmB;IAAA;EAAA;;wEAAnB,qBAAmB,CAAA;EAAA;;4EAHrB,cAAc,2BAA2B,cAAc,iBAAiB,cAAc,gBAAgB,EAAA,CAAA;EAAA;;;sEAGpG,qBAAmB,CAAA;UAL/B;WAAS;MACT,cAAc,CAAC,sBAAsB;MACrC,SAAS,CAAC,cAAc,2BAA2B,cAAc,iBAAiB,cAAc,gBAAgB;MAChH,SAAS,CAAC,sBAAsB;KAChC;;;8BAHe,wBAAsB,CAAA,SAAA,SAAA,MAAA,kBAAA,cAAA,SAAA,oBAAA,2BAAA,iBAAA,UAAA,GAAA,CAAA,WAAA,qBAAA,kBAAA,WAAA,CAAA;",
+  "names": []
+}

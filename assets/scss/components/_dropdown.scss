@@ -1,0 +1,85 @@
+// TODO: Removed all the commented styles as these are not needed.
+
+// .mat-mdc-text-field-wrapper {
+// 	// height: 38px !important; commenting as conflicting with other form-fields
+// }
+
+// .mat-mdc-select-value .mat-mdc-select-placeholder {
+// 	color: var(--general-3) !important;
+// }
+
+// .mat-mdc-option.mat-mdc-option-active {
+// 	background-color: var(--general-1) !important;
+// }
+
+// .mdc-text-field--filled:not(.mdc-text-field--disabled):hover {
+// 	color: var(--general-4) !important;
+// 	border-color: var(--general-4) !important;
+// }
+
+// .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+// 	border-bottom: none !important;
+// }
+
+// .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label,
+// .mat-mdc-select-value {
+// 	color: var(--general-5) !important;
+// }
+
+// .mdc-line-ripple::after {
+// 	border-bottom: none !important;
+// }
+
+// .mdc-text-field--filled:not(.mdc-text-field--disabled):active {
+// 	border-color: var(--prim-2) !important;
+// }
+
+// .mdc-text-field--invalid {
+// 	border-color: var(--error-3) !important;
+// }
+
+// .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mat-mdc-form-field-infix {
+// 	padding-top: 7px !important;
+// }
+
+// .mat-mdc-text-field-wrapper .mat-mdc-form-field-flex .mat-mdc-floating-label {
+// 	top: 20px !important;
+// }
+
+// .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined) .mat-mdc-form-field-infix {
+// 	padding-top: 7px !important;
+// }
+
+// .mdc-text-field--focused {
+// 	border-color: var(--prim-2) !important;
+// }
+
+// .mdc-floating-label--float-above {
+// 	display: none !important;
+// }
+
+// .mat-form-field-appearance-outline.mat-focused .mdc-notched-outline__notch,
+// .mat-form-field-appearance-outline.ng-touched .mdc-notched-outline__notch {
+// 	width: calc(1px * var(--mat-mdc-form-field-floating-label-scale, 0.75) + 9px) !important;
+// 	border-top: 1px solid var(--general-3);
+// }
+
+// .mdc-notched-outline .mdc-floating-label {
+// 	max-width: initial !important;
+// }
+
+// Match the color of arrow as per design
+.mat-mdc-select-arrow {
+	color: var(--general-3) !important;
+}
+
+.mat-mdc-select-trigger {
+	gap: 10px;
+}
+
+mat-select.mat-mdc-select,
+mat-option.mat-mdc-option {
+	@extend .text-body-regular;
+
+	color: var(--general-5);
+}

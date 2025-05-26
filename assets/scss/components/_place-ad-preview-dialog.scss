@@ -1,0 +1,9 @@
+@import 'assets/scss/utils/mixins';
+
+.cdk-overlay-pane.ad-preview-dialog {
+	height: 100%;
+
+	@include media-breakpoint-up(sm) {
+		height: auto !important;
+	}
+}

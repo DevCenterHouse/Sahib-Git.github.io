@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-ads/components/my-ad-share-dialog/my-ad-share-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.dialog-header {\n\theight: 60px;\n\tborder-bottom: 1px solid var(--neutral-2);\n}\n\n.dialog-actions {\n\theight: 70px;\n\tborder-top: 1px solid var(--neutral-2);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA;AACA,cAAA,IAAA,MAAA,IAAA;;",
+  "names": []
+}

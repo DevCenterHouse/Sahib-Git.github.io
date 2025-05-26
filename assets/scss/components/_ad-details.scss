@@ -1,0 +1,152 @@
+/**
+This file contains style for all components under ad module and  ad item component*/
+@import 'assets/scss/utils/mixins';
+
+.ad-detail-icon {
+	mat-icon.rotate-180deg {
+		transform: rotate(180deg);
+	}
+}
+
+.ad-style {
+	.mat-mdc-button.mat-mdc-button-primary.h-20px,
+	.mat-mdc-button.mat-mdc-button-base.h-20px {
+		height: 20px !important;
+	}
+
+	.video-btn.mat-mdc-unelevated-button:not(:disabled):hover {
+		color: var(--prim-2) !important;
+	}
+
+	.share-btn.mat-mdc-button:not(:disabled):hover {
+		color: var(--general-4) !important;
+	}
+
+	.chat-btn.mat-mdc-unelevated-button:not(:disabled):hover {
+		color: var(--general-5) !important;
+	}
+
+	.view-photo.mat-mdc-outlined-button:not(:disabled) {
+		background-color: rgba(26, 31, 46, 0.5) !important;
+		border: 1px solid var(--general-3) !important;
+		height: 35px !important;
+		color: var(--general-1) !important;
+	}
+
+	.view-photo-v2.mat-mdc-outlined-button:not(:disabled) {
+		background: rgba(26, 31, 46, 0.65) !important;
+		border: none !important;
+		height: 35px !important;
+		padding: 4px 16px !important;
+		gap: 4px !important;
+		color: var(--general-1) !important;
+	}
+
+	.my-ads-view-photo.mat-mdc-outlined-button:not(:disabled) {
+		background: rgba(26, 31, 46, 0.65) !important;
+		border: none !important;
+		height: 35px !important;
+		padding: 4px 16px !important;
+		gap: 4px !important;
+		color: var(--general-1) !important;
+	}
+
+	.photo-chat.mat-mdc-unelevated-button:not(:disabled) {
+		color: var(--general-5) !important;
+		width: 175px;
+	}
+
+	.phone-primary.mat-mdc-outlined-button:not(:disabled):hover {
+		background-color: var(--basic-1) !important;
+		color: var(--prim-2) !important;
+	}
+
+	&.item:first-child {
+		margin-top: 0 !important;
+	}
+
+	.pets-check.mat-mdc-checkbox {
+		.mdc-checkbox .mdc-checkbox__native-control {
+			width: 25px;
+			height: 25px;
+		}
+	}
+}
+
+.share-ad .mat-mdc-dialog-container {
+	margin: 0 !important;
+}
+
+.cdk-overlay-pane.place-ad-exit-dialog {
+	max-width: none !important;
+}
+
+.cdk-overlay-pane.inquiry-form {
+	margin-inline-start: auto;
+	max-width: 100% !important;
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+
+	@include media-breakpoint-up(sm) {
+		max-width: 380px !important;
+	}
+}
+
+.inquiry-backdrop {
+	background-color: rgb(17, 19, 29, 0.5) !important;
+	filter: blur(0) !important;
+}
+
+.hyper-links {
+	a {
+		color: var(--prim-2) !important;
+		text-decoration-line: underline !important;
+	}
+}
+
+.ad-icon-link-wrapper {
+	font-size: 13px;
+	width: 13px;
+}
+
+findqo-ad-not-found {
+	.text-link {
+		a {
+			color: var(--prim-2) !important;
+			text-decoration: none !important;
+		}
+	}
+}
+
+// change height and width of video player
+
+findqo-ad-video {
+	.video-img {
+		@include media-breakpoint-up(sm) {
+			max-width: 450px;
+			height: 250px;
+		}
+		@include media-breakpoint-down(sm) {
+			max-width: 343px !important;
+			height: 180px !important;
+		}
+	}
+}
+
+findqo-ad-report-dialog {
+	.mat-mdc-form-field-hint-spacer {
+		flex: none !important;
+	}
+}
+
+.agent-ad-detail {
+	.mat-bottom-sheet-container {
+		padding: 0 !important;
+
+		.mdc-button {
+			padding: 0 !important;
+		}
+	}
+}

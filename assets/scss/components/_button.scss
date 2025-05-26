@@ -1,0 +1,143 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+/* STROKED */
+.mat-mdc-outlined-button {
+	&:not(:disabled) {
+		border: 1px solid var(--prim-2) !important;
+		color: var(--prim-2) !important;
+
+		// TODO: Check what will be the correct hover style
+		// &:hover {
+		// 	background: var(--prim-2);
+		// 	color: var(--basic-1) !important;
+		// }
+	}
+
+	&:disabled {
+		border-color: var(--neutral-2) !important;
+		opacity: 0.5;
+
+		.mat-icon {
+			color: var(--neutral-2) !important;
+		}
+
+		// TODO: Move this on the component specific styles.
+		&.lead-claimed-btn {
+			color: var(--general-4) !important;
+			background: var(--neutral-2) !important;
+			opacity: 1;
+		}
+	}
+}
+
+/* FILLED */
+.mat-mdc-unelevated-button {
+	&:not(:disabled) {
+		// TODO: Check what will be the correct hover style
+		// &:hover {
+		// 	background: var(--prim-3);
+		// 	color: var(--basic-1) !important;
+		// }
+	}
+
+	&:disabled {
+		background: var(--neutral-2) !important;
+		color: var(--neutral-3) !important;
+	}
+}
+
+/* BASIC */
+.mat-mdc-button {
+	&:not(:disabled) {
+		// TODO: Check what will be the correct hover style
+		// &:hover {
+		// 	color: var(--prim-3) !important;
+		// }
+	}
+
+	&:disabled {
+		color: var(--neutral-2) !important;
+	}
+}
+
+/* ICON */
+.mat-mdc-icon-button {
+	&:not(:disabled) {
+		width: 100%;
+		height: 100%;
+		padding: 0;
+	}
+
+	.mat-icon {
+		// Reset the default width and height of mat-icon-button
+		width: 100%;
+		height: 100%;
+	}
+
+	// Remove ripple/focus effect
+	.mat-mdc-button-persistent-ripple,
+	.mat-mdc-button-ripple {
+		display: none;
+	}
+}
+
+/**
+* Disable ripple
+*/
+.mdc-button {
+	&.disabled-ripple {
+		.mat-mdc-button-persistent-ripple {
+			display: none;
+		}
+	}
+}
+
+/**
+* Disable ripple in link or a tags
+*/
+a.mdc-button {
+	.mat-mdc-button-persistent-ripple {
+		display: none;
+	}
+}
+
+/**
+* Mat badge button
+*/
+.mdc-button.mat-badge {
+	.mat-badge-content {
+		@extend .text-small-12px-regular;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		border-radius: 100px;
+		border: 2px solid var(--basic-1);
+		background: var(--sec-3);
+	}
+
+	&.badge-hidden .mat-badge-content {
+		display: none;
+	}
+}
+
+// TODO: Create a seperate component style. Component specific styles should not be here.
+.home-sections-btn .mdc-button__label,
+.lang-change-btn .mdc-button__label {
+	width: 100% !important;
+}
+
+.c-btn--stroked {
+	.mdc-button__label {
+		display: flex;
+		gap: 8px;
+		align-items: center;
+	}
+}
+
+mat-progress-spinner.white-stroke circle {
+	stroke: var(--basic-1) !important;
+}

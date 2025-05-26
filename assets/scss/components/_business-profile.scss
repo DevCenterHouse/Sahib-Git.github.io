@@ -1,0 +1,67 @@
+.status-badge {
+	padding: 2px 8px;
+	border-radius: 4px !important;
+	border-width: 1px !important ;
+	height: 25px !important;
+	border-style: solid;
+	display: inline-block;
+
+	&.active {
+		border-color: var(--success-2) !important;
+		background-color: var(--success-1) !important;
+		color: var(--success-3) !important;
+	}
+
+	&.failed {
+		border-color: var(--error-2) !important;
+		background-color: var(--error-1) !important;
+		color: var(--error-3) !important;
+	}
+
+	&.expiring {
+		border-color: var(--warn-2) !important;
+		background-color: var(--warn-1) !important;
+		color: var(--warn-3) !important;
+	}
+
+	&.cancelled {
+		border-color: var(--error-2) !important;
+		background-color: var(--error-1) !important;
+		color: var(--error-3) !important;
+	}
+
+	&.expired {
+		border-color: var(--neutral-2) !important;
+		background-color: var(--neutral-1) !important;
+		color: var(--neutral-3) !important;
+	}
+}
+
+findqo-subscription-plan {
+	.mdc-list-item--with-leading-icon .mdc-list-item__start {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+
+	.mdc-list-item__primary-text {
+		text-overflow: initial;
+		white-space: initial;
+		overflow: visible;
+	}
+}
+
+findqo-subscription-plan {
+	.mdc-list-item--with-leading-icon .mdc-list-item__start {
+		margin-right: 8px !important;
+	}
+}
+
+.mat-mdc-form-field.mat-form-field-disabled.admin-email {
+	.mdc-text-field--outlined.mdc-text-field--disabled .mdc-text-field__input {
+		color: var(--general-5) !important;
+	}
+
+	.mat-mdc-form-field.mat-form-field-disabled .mdc-text-field--disabled {
+		background-color: var(--neutral-1) !important;
+	}
+}

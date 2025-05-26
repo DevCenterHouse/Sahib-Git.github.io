@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/seller/component/seller-about/seller-about.component.ts"],
+  "sourcesContent": ["\n\t\t.description-container {\n\t\t\toverflow: hidden;\n\t\t\ttransition: height 0.3s ease-in-out;\n\n\t\t\t&.collapsed {\n\t\t\t\t.description-text {\n\t\t\t\t\t-webkit-line-clamp: 10; /* Limit to 3 lines */\n\t\t\t\t}\n\t\t\t}\n\t\t\t&.expanded {\n\t\t\t\t.description-text {\n\t\t\t\t\t-webkit-line-clamp: unset;\n\t\t\t\t}\n\t\t\t}\n\n\t\t\t.description-text {\n\t\t\t\toverflow: hidden;\n\t\t\t\ttext-overflow: ellipsis;\n\t\t\t\twhite-space: normal;\n\t\t\t\tdisplay: -webkit-box;\n\t\t\t\t-webkit-box-orient: vertical;\n\t\t\t}\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,YAAA;AACA,cAAA,OAAA,KAAA;;AAGC,CALF,qBAKE,CAAA,UAAA,CAAA;AACC,sBAAA;;AAID,CAVF,qBAUE,CAAA,SAAA,CALA;AAMC,sBAAA;;AAIF,CAfD,sBAeC,CAVC;AAWA,YAAA;AACA,iBAAA;AACA,eAAA;AACA,WAAA;AACA,sBAAA;;",
+  "names": []
+}

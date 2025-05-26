@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/pages/schedule-meeting/schedule-meeting.component.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 500px !important;\n\tpadding-bottom: 89px !important;\n}\n\n.mat-mdc-optgroup-label {\n\tbackground: var(--general-1) !important;\n\tborder: 1px solid var(--neutral-1) !important;\n}\n\n.submit-button {\n\twidth: 100%;\n\tmax-width: 500px !important;\n}\n\n.address-area {\n\tresize: none;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,kBAAA;;AAGD,CAAA;AACC,cAAA,IAAA;AACA,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,SAAA;AACA,aAAA;;AAGD,CAAA;AACC,UAAA;;",
+  "names": []
+}

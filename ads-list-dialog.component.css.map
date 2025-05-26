@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/pricing/component/ads-list-dialog/ads-list-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.check-background {\n\tbackground: rgba(255, 90, 184, 0.15);\n\twidth: 20px;\n\theight: 20px;\n}\n\n.check-icon {\n\tfont-size: 15px;\n\twidth: 15px;\n}"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,cAAA,KAAA,GAAA,EAAA,EAAA,EAAA,GAAA,EAAA;AACA,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,aAAA;AACA,SAAA;;",
+  "names": []
+}

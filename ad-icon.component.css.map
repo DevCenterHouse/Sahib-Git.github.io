@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/ad-icon/ad-icon.component.scss"],
+  "sourcesContent": [".large-img {\n\twidth: 20px;\n\theight: 20px;\n\tbackground-color: var(--general-1);\n}\n\n.img-container {\n\tpadding: 7px !important;\n\tborder-radius: 4px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,oBAAA,IAAA;;AAGD,CAAA;AACC,WAAA;AACA,iBAAA;;",
+  "names": []
+}

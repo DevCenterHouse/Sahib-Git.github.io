@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/seller/component/seller-profile-card/seller-profile-card.component.ts"],
+  "sourcesContent": ["\n\t\t.mat-mdc-card {\n\t\t\tbackground: var(--neutral-1);\n\t\t\tborder-radius: 4px;\n\t\t\tbox-shadow: unset;\n\n\t\t\th1 mat-icon {\n\t\t\t\tdisplay: inline !important;\n\t\t\t}\n\t\t\t.profile-avatar {\n\t\t\t\t&--business {\n\t\t\t\t\theight: 80px;\n\t\t\t\t}\n\t\t\t\twidth: 110px;\n\t\t\t\theight: 110px;\n\t\t\t\tmargin-inline-end: 12px;\n\n\t\t\t\timg {\n\t\t\t\t\tborder-radius: 10px;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,cAAA,IAAA;AACA,iBAAA;AACA,cAAA;;AAEA,CALD,aAKC,GAAA;AACC,WAAA;;AAED,CARD,aAQC,CAAA;AAIC,SAAA;AACA,UAAA;AACA,qBAAA;;AALA,CATF,aASE,CAAA;AACC,UAAA;;AAMD,CAhBF,aAgBE,CARD,eAQC;AACC,iBAAA;;",
+  "names": []
+}

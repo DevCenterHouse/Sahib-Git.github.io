@@ -1,0 +1,80 @@
+/* ACESS LEAD DIALOG CLASS */
+div.access-lead-dialog {
+	height: 100vh;
+	width: 100vw !important;
+	max-width: none !important;
+
+	@include media-breakpoint-up(sm) {
+		height: auto;
+		max-width: 452px !important;
+		width: 100% !important;
+	}
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+}
+
+.manage-alert-chip {
+	.mat-mdc-standard-chip {
+		background-color: var(--info-1) !important;
+		border-radius: 6px;
+	}
+
+	.mdc-evolution-chip__text-label {
+		color: var(--info-3) !important;
+	}
+
+	mat-icon {
+		color: var(--info-3) !important;
+	}
+}
+
+// Alert modal, checkbox
+.manage-alert-dialog {
+	.mdc-checkbox .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark {
+		padding: 2px;
+		width: 15px;
+		margin: 1px;
+	}
+
+	height: 100vh;
+	width: 100vw !important;
+	max-width: none !important;
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+
+	mat-dialog-content {
+		min-height: 85vh !important;
+		padding: 0 !important;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: auto !important;
+		min-height: 65vh;
+		max-width: 432px !important;
+		width: 100% !important;
+
+		mat-dialog-content {
+			min-height: auto !important;
+			padding: 0 !important;
+		}
+	}
+}
+
+.manage-alert-chip {
+	.mat-mdc-standard-chip {
+		background-color: var(--info-1) !important;
+		border-radius: 6px;
+	}
+
+	.mdc-evolution-chip__text-label {
+		color: var(--info-3) !important;
+	}
+
+	mat-icon {
+		color: var(--info-3) !important;
+	}
+}

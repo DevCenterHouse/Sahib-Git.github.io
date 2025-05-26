@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/sort-menu/sort-menu.component.scss"],
+  "sourcesContent": [".filter-menu-icon {\n\tfont-size: 20px;\n\theight: 20px;\n\twidth: 20px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,UAAA;AACA,SAAA;;",
+  "names": []
+}

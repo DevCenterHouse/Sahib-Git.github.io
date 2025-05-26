@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/sellerLead/seller-lead.component.scss"],
+  "sourcesContent": [".main-container {\n\tgap: 32px;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n.container {\n\tmax-width: 1100px;\n}\n.d-flex {\n\tjustify-content: center;\n}\n\n.scroll-padding {\n\tscroll-margin-top: 14vh !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,OAAA;AACA,WAAA;AACA,kBAAA;;AAED,CAAA;AACC,aAAA;;AAED,CAAA;AACC,mBAAA;;AAGD,CAAA;AACC,qBAAA;;",
+  "names": []
+}

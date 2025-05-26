@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/components/agent-ad-item/agent-ad-item.component.scss"],
+  "sourcesContent": [".ad-image {\n\twidth: 97px;\n\theight: 61px;\n\tobject-fit: contain;\n}\n\n.no-wrap {\n\twhite-space: nowrap;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA;;AAGD,CAAA;AACC,eAAA;;",
+  "names": []
+}

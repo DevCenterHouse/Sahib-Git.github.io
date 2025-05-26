@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/pages/place-ad-form-page/place-ad-form-page.component.ts"],
+  "sourcesContent": ["\n\t\tmat-stepper {\n\t\t\tmargin-bottom: 69px;\n\t\t\t.container {\n\t\t\t\tmax-width: 600px;\n\t\t\t\tpadding: 0;\n\t\t\t\t&--uploads {\n\t\t\t\t\tmax-width: 1232px;\n\t\t\t\t}\n\t\t\t\t&--ad-tiers,\n\t\t\t\t&--review {\n\t\t\t\t\tmax-width: fit-content;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t.action-buttons-container {\n\t\t\tmax-width: 600px;\n\t\t\tbutton {\n\t\t\t\tmin-width: 125px;\n\t\t\t}\n\t\t}\n\t"],
+  "mappings": ";AACE;AACC,iBAAA;;AACA,YAAA,CAAA;AACC,aAAA;AACA,WAAA;;AACA,YAAA,CAAA;AACC,aAAA;;AAED,YAAA,CAAA;AAAA,YAAA,CAAA;AAEC,aAAA;;AAIH,CAAA;AACC,aAAA;;AACA,CAFD,yBAEC;AACC,aAAA;;",
+  "names": []
+}

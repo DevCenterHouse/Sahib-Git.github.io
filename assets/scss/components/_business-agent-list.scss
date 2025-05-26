@@ -1,0 +1,93 @@
+@import 'assets/scss/utils/mixins';
+
+// Business Info pop up panel class
+.cdk-overlay-pane.business-info {
+	padding-left: 16px;
+	padding-right: 16px;
+	width: unset !important;
+
+	@include media-breakpoint-up(sm) {
+		padding-left: unset;
+		padding-right: unset;
+		max-width: 375px !important;
+	}
+}
+
+findqo-advertise-agent {
+	.swiper-button-prev,
+	.swiper-button-next {
+		mat-icon {
+			width: 55px !important;
+			height: 55px !important;
+			font-size: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		background-color: transparent !important;
+		width: 55px !important;
+		height: 55px !important;
+	}
+
+	@include media-breakpoint-down(md) {
+		.swiper-button-prev {
+			left: 0 !important;
+		}
+
+		.swiper-button-next {
+			right: 0 !important;
+		}
+	}
+
+	.swiper-slide {
+		width: 270px !important;
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.cdk-global-overlay-wrapper:has(.agent-dialog) {
+		align-items: flex-end !important;
+	}
+
+	.cdk-overlay-pane.agent-dialog {
+		height: 100% !important;
+	}
+
+	.add-agent-fab-button {
+		&.mdc-fab:not(.mdc-ripple-upgraded):focus,
+		&.mat-mdc-mini-fab {
+			box-shadow: none !important;
+		}
+	}
+}
+
+.cdk-overlay-pane:has(.agent-sort-menu) {
+	width: 175px !important;
+}
+
+.sort-select {
+	.mat-mdc-select-trigger {
+		margin-top: 8px !important;
+	}
+}
+
+.agent-search {
+	.mat-mdc-form-field-icon-prefix > .mat-icon {
+		padding: 6px 6px 6px 0 !important;
+	}
+}
+
+.agent-action-menu {
+	.mat-bottom-sheet-container {
+		padding: 8px 0px !important;
+		overflow: hidden !important;
+
+		findqo-bottomsheet {
+			.row,
+			mat-option {
+				padding: 0.5rem 1rem !important;
+			}
+		}
+	}
+}

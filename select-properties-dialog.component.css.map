@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/components/select-properties-dialog/select-properties-dialog.component.scss"],
+  "sourcesContent": [".search-container {\n\tposition: sticky;\n\ttop: 59px !important;\n}\n\n.z-index-1 {\n\tz-index: 1 !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,YAAA;AACA,OAAA;;AAGD,CAAA;AACC,WAAA;;",
+  "names": []
+}

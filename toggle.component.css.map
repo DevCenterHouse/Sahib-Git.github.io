@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/toggle/toggle.component.ts"],
+  "sourcesContent": ["\n\t\t.toggle-switch {\n\t\t\twidth: 36px;\n\t\t\theight: 20px;\n\t\t\tborder-radius: 12px;\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tcursor: pointer;\n\t\t\tpadding: 2px;\n\t\t\tposition: relative;\n\n\t\t\t.toggle-circle {\n\t\t\t\twidth: 16px;\n\t\t\t\theight: 16px;\n\t\t\t\tborder-radius: 50%;\n\t\t\t\tposition: absolute;\n\t\t\t\tleft: 3px;\n\t\t\t\ttransition: left 0.3s;\n\n\t\t\t\t&.active {\n\t\t\t\t\tleft: 17px;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;AACA,WAAA;AACA,eAAA;AACA,UAAA;AACA,WAAA;AACA,YAAA;;AAEA,CAVD,cAUC,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;AACA,YAAA;AACA,QAAA;AACA,cAAA,KAAA;;AAEA,CAlBF,cAkBE,CARD,aAQC,CAAA;AACC,QAAA;;",
+  "names": []
+}

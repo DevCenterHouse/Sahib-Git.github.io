@@ -1,0 +1,38 @@
+findqo-footer-county-list {
+	.mat-mdc-tab-header-pagination-disabled {
+		display: none !important;
+	}
+	.mat-mdc-tab-header-pagination-controls-enabled .mat-mdc-tab-header-pagination {
+		border: 1px solid var(--prim-2) !important;
+	}
+
+	.mat-mdc-tab-header-pagination-chevron {
+		border-color: var(--prim-2) !important;
+		height: 12px !important;
+		width: 12px !important;
+	}
+
+	.mat-mdc-tab .mdc-tab__text-label {
+		color: var(--general-5);
+	}
+
+	.mat-mdc-tab.mdc-tab:hover .mdc-tab__text-label {
+		color: var(--prim-2);
+	}
+
+	.mat-mdc-tab-body-content {
+		overflow: hidden !important;
+	}
+
+	.mat-mdc-tab-header-pagination-after {
+		border-radius: 0px 4px 4px 0px !important;
+	}
+
+	.mat-mdc-tab-header-pagination-before {
+		border-radius: 4px 0px 0px 4px !important;
+	}
+
+	.mat-divider {
+		border-top-color: var(--general-2) !important;
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/components/time-slot/components/time-slot-dialog/time-slot-dialog.component.scss"],
+  "sourcesContent": [".dialog-header {\n\tposition: sticky;\n\tz-index: 1;\n\ttop: 0;\n\tleft: 0;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,YAAA;AACA,WAAA;AACA,OAAA;AACA,QAAA;;",
+  "names": []
+}

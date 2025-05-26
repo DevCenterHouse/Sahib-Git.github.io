@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/other-ad-list/other-ad-list.component.scss"],
+  "sourcesContent": ["img {\n\tborder-radius: 4px;\n\tobject-fit: cover;\n}\n\na.ad {\n\tmax-width: 187px;\n}\n"],
+  "mappings": ";AAAA;AACC,iBAAA;AACA,cAAA;;AAGD,CAAA,CAAA;AACC,aAAA;;",
+  "names": []
+}

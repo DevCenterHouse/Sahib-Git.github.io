@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-enquiries/pages/my-enquiry-list/my-enquiry-list.page.scss"],
+  "sourcesContent": [".no-enquiry-container {\n\tposition: absolute;\n\ttop: 50%;\n\ttransform: translate(-50%, -50%);\n\tleft: 50%;\n}\n\n.empty-img {\n\tmax-width: 200px;\n\tmax-height: 200px;\n}\n\n.mw-350px {\n\tmax-width: 350px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,YAAA;AACA,OAAA;AACA,aAAA,UAAA,IAAA,EAAA;AACA,QAAA;;AAGD,CAAA;AACC,aAAA;AACA,cAAA;;AAGD,CAAA;AACC,aAAA;;",
+  "names": []
+}

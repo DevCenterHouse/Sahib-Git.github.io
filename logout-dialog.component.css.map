@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/header/components/logout-dialog/logout-dialog.component.scss"],
+  "sourcesContent": [".row {\n\tgap: 8px;\n\n\tbutton {\n\t\theight: 38px !important;\n\t\tline-height: 38px !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,OAAA;;AAEA,CAHD,IAGC;AACC,UAAA;AACA,eAAA;;",
+  "names": []
+}

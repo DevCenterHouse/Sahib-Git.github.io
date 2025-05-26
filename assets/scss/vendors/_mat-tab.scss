@@ -1,0 +1,7 @@
+.mdc-tab {
+	&.disable-ripple {
+		.mdc-tab__ripple {
+			display: none;
+		}
+	}
+}

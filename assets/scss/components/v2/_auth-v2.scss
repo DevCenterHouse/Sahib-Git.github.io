@@ -1,0 +1,169 @@
+/* AUTH DIALOG PANEL CLASS */
+div.auth-dialog {
+	height: 100vh;
+	width: 100vw !important;
+	max-width: none !important;
+
+	@include media-breakpoint-up(sm) {
+		height: auto;
+		max-width: 375px !important;
+		width: 100% !important;
+	}
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+}
+
+div.survey-dialog {
+	height: 100vh;
+	width: 100vw !important;
+	max-width: none !important;
+
+	@include media-breakpoint-up(sm) {
+		height: auto;
+		max-width: 500px !important;
+		width: 100% !important;
+	}
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+
+	.dialog-container {
+		padding: 16px !important;
+	}
+}
+// end - AUTH DIALOG PANEL CLASS
+
+findqo-auth-dialog-v2 {
+	findqo-button {
+		display: block;
+		width: 100%;
+		height: 40px;
+
+		.c-btn {
+			width: 100%;
+			height: 100% !important;
+		}
+
+		&.close {
+			position: absolute;
+			top: 16px;
+			inset-inline-end: 16px;
+			width: 40px;
+			z-index: var(--z-index-dialog-close-btn);
+
+			.c-btn {
+				border-radius: 100%;
+				padding: 0;
+				background: var(--general-1);
+
+				.mat-icon {
+					margin: 0 !important;
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+
+		@include media-breakpoint-up(sm) {
+			&.close {
+				position: unset;
+				margin-bottom: 16px;
+				margin-inline-start: auto;
+			}
+		}
+	}
+
+	findqo-input {
+		.mat-mdc-form-field-infix {
+			height: 40px;
+		}
+	}
+
+	mat-card.auth {
+		box-shadow: unset;
+
+		mat-card-header {
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 16px;
+			padding: 0;
+
+			img {
+				margin-bottom: 16px;
+			}
+
+			h3 {
+				@extend .heading-3;
+
+				margin-bottom: 8px;
+				color: var(--general-5);
+			}
+
+			p {
+				@extend .text-small-14px-regular;
+
+				color: var(--general-4);
+			}
+		}
+
+		mat-card-content {
+			padding: 0;
+			margin-bottom: 16px;
+		}
+
+		mat-card-actions {
+			flex-direction: column;
+			min-height: 40px;
+			row-gap: 16px;
+			padding: 0;
+		}
+	}
+}
+
+findqo-delete-account-otp-v2 {
+	findqo-button {
+		&.verfiy-email {
+			.mat-mdc-unelevated-button:not(:disabled) {
+				background-color: var(--error-3) !important;
+				color: var(--error-1) !important;
+			}
+		}
+	}
+}
+
+findqo-interest-survey {
+	.mdc-checkbox__checkmark {
+		left: 50% !important;
+		top: 50% !important;
+		transform: translate(-50%, -50%) !important;
+		width: 12px;
+		height: 12px;
+	}
+
+	.mat-mdc-checkbox .mdc-checkbox {
+		margin-inline-end: 8px !important;
+	}
+
+	.mdc-list-item:focus::before {
+		background-color: transparent !important;
+	}
+}
+
+div.sticky-ad-dialog {
+	height: 100vh;
+	width: 100vw !important;
+	max-width: none !important;
+
+	@include media-breakpoint-up(sm) {
+		height: auto;
+		max-width: 1000px !important;
+		width: auto !important;
+	}
+
+	.mat-mdc-dialog-container {
+		margin: 0 !important;
+	}
+}

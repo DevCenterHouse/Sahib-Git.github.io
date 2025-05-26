@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/empty-ad-list/empty-ad-list.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\n\nimport { SharedModule } from '@shared/shared.module';\nimport { EmptyAdListComponent } from './empty-ad-list.component';\nimport { ButtonModule } from '@shared/components/button/button.module';\nimport { MatDividerModule } from '@angular/material/divider';\n\n@NgModule({\n\tdeclarations: [EmptyAdListComponent],\n\timports: [SharedModule, ButtonModule, MatDividerModule],\n\texports: [EmptyAdListComponent],\n})\nexport class EmptyAdListModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;AAYM,IAAO,oBAAP,MAAO,mBAAiB;;;uCAAjB,oBAAiB;IAAA;EAAA;;wEAAjB,mBAAiB,CAAA;EAAA;;4EAHnB,cAAc,cAAc,gBAAgB,EAAA,CAAA;EAAA;;;sEAG1C,mBAAiB,CAAA;UAL7B;WAAS;MACT,cAAc,CAAC,oBAAoB;MACnC,SAAS,CAAC,cAAc,cAAc,gBAAgB;MACtD,SAAS,CAAC,oBAAoB;KAC9B;;;",
+  "names": []
+}

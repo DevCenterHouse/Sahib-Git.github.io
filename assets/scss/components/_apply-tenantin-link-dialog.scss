@@ -1,0 +1,11 @@
+@import 'assets/scss/utils/mixins';
+//style for Apply tennatin Link dialog
+.apply-tenantin-link-dialog {
+	width: 100%;
+	max-width: 343px !important;
+
+	@include media-breakpoint-up(sm) {
+		max-width: 400px !important;
+		width: 100%;
+	}
+}

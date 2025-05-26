@@ -1,0 +1,25 @@
+@import 'assets/scss/utils/mixins';
+
+// Buyer user language preference dialog show dialog in full width on mobile
+.select-language-dialog {
+	height: 100vh;
+	width: 100vw !important;
+	max-width: none !important;
+
+	@include media-breakpoint-up(sm) {
+		height: auto;
+		max-width: 375px !important;
+		width: 100% !important;
+	}
+	.mat-mdc-dialog-container {
+		margin: 0px !important;
+	}
+
+	.select-lang {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+	}
+}

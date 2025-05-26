@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/header/components/download-app-header/download-app-header.component.ts"],
+  "sourcesContent": ["\n\t\t.banner {\n\t\t\tbackground-image: url('/assets/images/download-app-banner.webp');\n\t\t\tbackground-size: cover;\n\t\t\tbackground-position: center;\n\n\t\t\tborder-bottom: 1px solid var(--general-1);\n\t\t\tborder-radius: 4px;\n\t\t}\n\t\t.icon {\n\t\t\tborder-radius: 8px;\n\t\t}\n\t\t.gradient-button {\n\t\t\tbackground: linear-gradient(180deg, #ee0088 0%, #ee0088 25%, #ee0088 37.5%, #ee0088 50%, #d20072 75%, #c40066 87.5%, #b6005b 100%);\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,oBAAA;AACA,mBAAA;AACA,uBAAA;AAEA,iBAAA,IAAA,MAAA,IAAA;AACA,iBAAA;;AAED,CAAA;AACC,iBAAA;;AAED,CAAA;AACC;IAAA;MAAA,MAAA;MAAA,QAAA,EAAA;MAAA,QAAA,GAAA;MAAA,QAAA,KAAA;MAAA,QAAA,GAAA;MAAA,QAAA,GAAA;MAAA,QAAA,KAAA;MAAA,QAAA;;",
+  "names": []
+}

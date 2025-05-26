@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/pages/payment-sucess/payment-sucess.page.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 600px !important;\n\theight: calc(100vh - 80px);\n}\n\n.feature-container {\n\tmax-width: 400px !important;\n\n\t.continue-button {\n\t\tmargin-top: 16px !important;\n\t\theight: 40px !important;\n\t}\n\n\t.mt-32px {\n\t\tmargin-top: 32px;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,UAAA,KAAA,MAAA,EAAA;;AAGD,CAAA;AACC,aAAA;;AAEA,CAHD,kBAGC,CAAA;AACC,cAAA;AACA,UAAA;;AAGD,CARD,kBAQC,CAAA;AACC,cAAA;;",
+  "names": []
+}

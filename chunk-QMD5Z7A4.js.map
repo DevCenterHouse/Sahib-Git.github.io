@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/general/filters/components/property-alert-dialog/property-alert-dialog.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { PropertyAlertDialogComponent } from './property-alert-dialog.component';\nimport { SharedModule } from '@shared/shared.module';\nimport { ButtonModule } from '@shared/components/button/button.module';\nimport { MatDialogModule } from '@angular/material/dialog';\nimport { MatSelectModule } from '@angular/material/select';\nimport { MatCheckboxModule } from '@angular/material/checkbox';\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\nimport { PropertyAlertsFacade } from '@feature/property-alerts/property-alerts.facade';\n\n@NgModule({\n\tdeclarations: [PropertyAlertDialogComponent],\n\timports: [SharedModule, ButtonModule, MatDialogModule, MatSelectModule, MatCheckboxModule, FormsModule, ReactiveFormsModule],\n\texports: [PropertyAlertDialogComponent],\n\tproviders: [PropertyAlertsFacade],\n})\nexport class PropertyAlertDialogModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;AAgBM,IAAO,4BAAP,MAAO,2BAAyB;;;uCAAzB,4BAAyB;IAAA;EAAA;;wEAAzB,2BAAyB,CAAA;EAAA;;6EAF1B,CAAC,oBAAoB,GAAC,SAAA,CAFvB,cAAc,cAAc,iBAAiB,iBAAiB,mBAAmB,aAAa,mBAAmB,EAAA,CAAA;EAAA;;;sEAI/G,2BAAyB,CAAA;UANrC;WAAS;MACT,cAAc,CAAC,4BAA4B;MAC3C,SAAS,CAAC,cAAc,cAAc,iBAAiB,iBAAiB,mBAAmB,aAAa,mBAAmB;MAC3H,SAAS,CAAC,4BAA4B;MACtC,WAAW,CAAC,oBAAoB;KAChC;;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/header/components/header-account-menu/header-account-menu.component.scss"],
+  "sourcesContent": [":host {\n\t// Overrides the home page account menu\n\t&.home-account-menu {\n\t\tbutton.menu-trigger span {\n\t\t\tcolor: var(--basic-1) !important;\n\t\t}\n\t}\n}\n\nbutton.menu-trigger {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n\tgap: 8px;\n\n\timg.avatar {\n\t\theight: 40px;\n\t\twidth: 40px;\n\t\tborder-radius: 50%;\n\t\tflex-shrink: 0;\n\t\tobject-fit: cover;\n\t}\n\n\t// User's name\n\tspan {\n\t\tmax-width: 150px;\n\t}\n}\n\ndiv.menu {\n\twidth: 290px !important;\n\tmax-width: 290px !important;\n\tpadding: 8px 0;\n\n\ta {\n\t\theight: 40px;\n\n\t\tmat-icon {\n\t\t\tmargin-right: 8px !important;\n\t\t}\n\t}\n}\n"],
+  "mappings": ";AAGE,KAAA,CAAA,kBAAA,MAAA,CAAA,aAAA;AACC,SAAA,IAAA;;AAKH,MAAA,CANE;AAOD,WAAA;AACA,eAAA;AACA,mBAAA;AACA,OAAA;;AAEA,MAAA,CAZC,aAYD,GAAA,CAAA;AACC,UAAA;AACA,SAAA;AACA,iBAAA;AACA,eAAA;AACA,cAAA;;AAID,MAAA,CArBC,aAqBD;AACC,aAAA;;AAIF,GAAA,CAAA;AACC,SAAA;AACA,aAAA;AACA,WAAA,IAAA;;AAEA,GAAA,CALD,KAKC;AACC,UAAA;;AAEA,GAAA,CARF,KAQE,EAAA;AACC,gBAAA;;",
+  "names": []
+}

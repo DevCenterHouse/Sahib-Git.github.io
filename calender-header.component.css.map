@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/components/calender-header/calender-header.component.scss"],
+  "sourcesContent": [".calender-header {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n\tpadding: 0.5em;\n}\n\n.calender-header button {\n\tmargin: 0 0.5em;\n\twidth: fit-content !important;\n\n\t:hover {\n\t\tbackground-color: var(--prim-2);\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,WAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA;;AAGD,CAPA,gBAOA;AACC,UAAA,EAAA;AACA,SAAA;;AAEA,CAXD,gBAWC,OAAA;AACC,oBAAA,IAAA;;",
+  "names": []
+}

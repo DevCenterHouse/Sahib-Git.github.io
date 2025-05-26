@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad-guide/place-ad-guide.component.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 1000px !important;\n}\n\n.divider-line {\n\twidth: 120px;\n\tborder-top: 3px solid var(--prim-2) !important;\n}\n\nimg {\n\tborder: 1px solid var(--neutral-1) !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;;AAGD,CAAA;AACC,SAAA;AACA,cAAA,IAAA,MAAA,IAAA;;AAGD;AACC,UAAA,IAAA,MAAA,IAAA;;",
+  "names": []
+}

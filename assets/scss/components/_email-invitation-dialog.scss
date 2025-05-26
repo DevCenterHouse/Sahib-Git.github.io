@@ -1,0 +1,14 @@
+@import 'assets/scss/utils/mixins';
+
+// Accept /unable Accept email invitation  pop up panel class
+.cdk-overlay-pane.email-invitation {
+	padding-left: 8px;
+	padding-right: 8px;
+	width: unset !important;
+
+	@include media-breakpoint-up(sm) {
+		padding-left: unset;
+		padding-right: unset;
+		max-width: 500px !important;
+	}
+}

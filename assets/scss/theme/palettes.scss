@@ -1,0 +1,193 @@
+/* THEME COLOR VARIABLES */
+
+/*
+	This simply holds a key-value (map) pair that is nested two layers, similar to any JSON.
+
+	Here's an example if this was truly in JSON:
+	{
+		"light": {
+			"xyz": "#ffffff",
+			...
+		},
+		"dark": {
+			"xyz": "#000000",
+			...
+		},
+	}
+
+	NOTE: the names of the colors must be exactly the same in each theme, only the values can be different.
+*/
+
+$themes: (
+	light: (
+		'basic-1': #ffffff,
+		'basic-2': #000000,
+		'prim-1': #ff5ab8,
+		'prim-2': #ee0088,
+		'prim-3': #b6005b,
+		'sec-1': #33eeee,
+		'sec-2': #7cffff,
+		'sec-3': #00babb,
+		'general-1': #f3f4f6,
+		'general-2': #d1d5db,
+		'general-3': #a6aab3,
+		'general-4': #6c7284,
+		'general-5': #1a1f2e,
+		'general-6': #11131d,
+		'neutral-1': #f5f5f5,
+		'neutral-2': #eaeaea,
+		'neutral-3': #a4a4a4,
+		'neutral-4': #e4e8f0,
+		'error-1': #ffe9ea,
+		'error-2': #f6a1ac,
+		'error-3': #ed4258,
+		'success-1': #e3ffe6,
+		'success-2': #97dca2,
+		'success-3': #2eb844,
+		'info-1': #e7f1ff,
+		'info-2': #b6d4fe,
+		'info-3': #0d6efd,
+		'alert-1': #fff5d6,
+		'alert-2': #efd495,
+		'alert-3': #dfa316,
+		'warn-1': #ffedd5,
+		'warn-2': #fdba74,
+		'warn-3': #ea580c,
+	),
+	dark: (
+		'basic-1': #ffffff,
+		'basic-2': #000000,
+		'prim-1': #ff5ab8,
+		'prim-2': #ee0088,
+		'prim-3': #b6005b,
+		'sec-1': #33eeee,
+		'sec-2': #7cffff,
+		'sec-3': #00babb,
+		'general-1': #f3f4f6,
+		'general-2': #d1d5db,
+		'general-3': #a6aab3,
+		'general-4': #6c7284,
+		'general-5': #1a1f2e,
+		'general-6': #11131d,
+		'neutral-1': #f5f5f5,
+		'neutral-2': #eaeaea,
+		'neutral-3': #a4a4a4,
+		'neutral-4': #e4e8f0,
+		'error-1': #ffe9ea,
+		'error-2': #f6a1ac,
+		'error-3': #ed4258,
+		'success-1': #e3ffe6,
+		'success-2': #97dca2,
+		'success-3': #2eb844,
+		'info-1': #e7f1ff,
+		'info-2': #bbbbbb,
+		'info-3': #0d6efd,
+		'alert-1': #fff5d6,
+		'alert-2': #efd495,
+		'alert-3': #dfa316,
+		'warn-1': #ffedd5,
+		'warn-2': #fdba74,
+		'warn-3': #ea580c,
+	),
+);
+
+$dev-colors: (
+	light: (
+		'basic-1': map-get(map-get($themes, 'light'), 'basic-1'),
+		'basic-2': map-get(map-get($themes, 'light'), 'basic-2'),
+		'prim-1': map-get(map-get($themes, 'light'), 'prim-1'),
+		'prim-2': map-get(map-get($themes, 'light'), 'prim-2'),
+		'prim-3': map-get(map-get($themes, 'light'), 'prim-3'),
+		'sec-1': map-get(map-get($themes, 'light'), 'sec-1'),
+		'sec-2': map-get(map-get($themes, 'light'), 'sec-2'),
+		'sec-3': map-get(map-get($themes, 'light'), 'sec-3'),
+		'general-1': map-get(map-get($themes, 'light'), 'general-1'),
+		'general-2': map-get(map-get($themes, 'light'), 'general-2'),
+		'general-3': map-get(map-get($themes, 'light'), 'general-3'),
+		'general-4': map-get(map-get($themes, 'light'), 'general-4'),
+		'general-5': map-get(map-get($themes, 'light'), 'general-5'),
+		'general-6': map-get(map-get($themes, 'light'), 'general-6'),
+		'neutral-1': map-get(map-get($themes, 'light'), 'neutral-1'),
+		'neutral-2': map-get(map-get($themes, 'light'), 'neutral-2'),
+		'neutral-3': map-get(map-get($themes, 'light'), 'neutral-3'),
+		'neutral-4': map-get(map-get($themes, 'light'), 'neutral-4'),
+		'error-1': map-get(map-get($themes, 'light'), 'error-1'),
+		'error-2': map-get(map-get($themes, 'light'), 'error-2'),
+		'error-3': map-get(map-get($themes, 'light'), 'error-3'),
+		'success-1': map-get(map-get($themes, 'light'), 'success-1'),
+		'success-2': map-get(map-get($themes, 'light'), 'success-2'),
+		'success-3': map-get(map-get($themes, 'light'), 'success-3'),
+		'info-1': map-get(map-get($themes, 'light'), 'info-1'),
+		'info-2': map-get(map-get($themes, 'light'), 'info-2'),
+		'info-3': map-get(map-get($themes, 'light'), 'info-3'),
+		'alert-1': map-get(map-get($themes, 'light'), 'alert-1'),
+		'alert-2': map-get(map-get($themes, 'light'), 'alert-2'),
+		'alert-3': map-get(map-get($themes, 'light'), 'alert-3'),
+		'warn-1': map-get(map-get($themes, 'light'), 'warn-1'),
+		'warn-2': map-get(map-get($themes, 'light'), 'warn-2'),
+		'warn-3': map-get(map-get($themes, 'light'), 'warn-3'),
+	),
+	dark: (
+		'basic-1': map-get(map-get($themes, 'dark'), 'basic-1'),
+		'basic-2': map-get(map-get($themes, 'dark'), 'basic-2'),
+		'prim-1': map-get(map-get($themes, 'dark'), 'prim-1'),
+		'prim-2': map-get(map-get($themes, 'dark'), 'prim-2'),
+		'prim-3': map-get(map-get($themes, 'dark'), 'prim-3'),
+		'sec-1': map-get(map-get($themes, 'dark'), 'sec-1'),
+		'sec-2': map-get(map-get($themes, 'dark'), 'sec-2'),
+		'sec-3': map-get(map-get($themes, 'dark'), 'sec-3'),
+		'general-1': map-get(map-get($themes, 'dark'), 'general-1'),
+		'general-2': map-get(map-get($themes, 'dark'), 'general-2'),
+		'general-3': map-get(map-get($themes, 'dark'), 'general-3'),
+		'general-4': map-get(map-get($themes, 'dark'), 'general-4'),
+		'general-5': map-get(map-get($themes, 'dark'), 'general-5'),
+		'general-6': map-get(map-get($themes, 'dark'), 'general-6'),
+		'neutral-1': map-get(map-get($themes, 'dark'), 'neutral-1'),
+		'neutral-2': map-get(map-get($themes, 'dark'), 'neutral-2'),
+		'neutral-3': map-get(map-get($themes, 'dark'), 'neutral-3'),
+		'neutral-4': map-get(map-get($themes, 'dark'), 'neutral-4'),
+		'error-1': map-get(map-get($themes, 'dark'), 'error-1'),
+		'error-2': map-get(map-get($themes, 'dark'), 'error-2'),
+		'error-3': map-get(map-get($themes, 'dark'), 'error-3'),
+		'success-1': map-get(map-get($themes, 'dark'), 'success-1'),
+		'success-2': map-get(map-get($themes, 'dark'), 'success-2'),
+		'success-3': map-get(map-get($themes, 'dark'), 'success-3'),
+		'info-1': map-get(map-get($themes, 'dark'), 'info-1'),
+		'info-2': map-get(map-get($themes, 'dark'), 'info-2'),
+		'info-3': map-get(map-get($themes, 'dark'), 'info-3'),
+		'alert-1': map-get(map-get($themes, 'dark'), 'alert-1'),
+		'alert-2': map-get(map-get($themes, 'dark'), 'alert-2'),
+		'alert-3': map-get(map-get($themes, 'dark'), 'alert-3'),
+		'warn-1': map-get(map-get($themes, 'dark'), 'warn-1'),
+		'warn-2': map-get(map-get($themes, 'dark'), 'warn-2'),
+		'warn-3': map-get(map-get($themes, 'dark'), 'warn-3'),
+	),
+);
+
+/*
+	Creating a loop that goes through the $themes SCSS variable.
+
+	The first @each loop below iterates through the first layer for example "light", "dark", etc.
+	Here it generates a theme class which is formatted like theme-{$name}, i.e. theme-light.
+	This class is what gets applied to the HTML <body> tag dynamically to control which theme is in effect.
+
+	The second @each loop below iterates through what is inside each theme. This gives us the individual key-value pairs that hold the colors.
+*/
+@each $name, $map in $dev-colors {
+	.theme-#{$name} {
+		@each $key, $value in $map {
+			// creating a CSS variable for each key per theme
+			--#{$key}: #{$value};
+
+			// creating a background color utility class for each key per theme
+			.bg-#{$key} {
+				background-color: var(--#{$key}) !important;
+			}
+
+			// creating a text color utility class for each key per theme
+			.fg-#{$key} {
+				color: var(--#{$key}) !important;
+			}
+		}
+	}
+}

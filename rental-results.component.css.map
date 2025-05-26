@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/rental-estimate-tool/components/rental-results/rental-results.component.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 650px;\n\tpadding-bottom: 75px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,kBAAA;;",
+  "names": []
+}

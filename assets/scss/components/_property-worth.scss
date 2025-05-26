@@ -1,0 +1,98 @@
+.property-worth-tab {
+	mat-tab-group {
+		.mdc-tab {
+			padding: 0 !important;
+		}
+	}
+
+	.mat-mdc-tab .mdc-tab__text-label {
+		color: var(--general-5);
+		font-weight: 400;
+
+		font-size: 14px !important;
+	}
+
+	.mdc-tab-indicator--active .mat-mdc-tab .mdc-tab__text-label {
+		color: var(--prim-2) !important;
+	}
+
+	.mat-mdc-tab-body-content {
+		overflow: hidden !important;
+	}
+}
+
+.leads-agent-hub {
+	mat-tab-group {
+		.mdc-tab {
+			padding: 0 15px !important;
+		}
+	}
+
+	.mat-mdc-tab .mdc-tab__text-label {
+		color: var(--general-5);
+		font-weight: 400;
+
+		font-size: 14px !important;
+	}
+
+	.mdc-tab-indicator--active .mat-mdc-tab .mdc-tab__text-label {
+		color: var(--prim-2) !important;
+	}
+
+	.mat-mdc-tab-body-content {
+		overflow: hidden !important;
+	}
+}
+.agent-hub-lead-county-search.mat-mdc-select-panel {
+	padding: 0 !important;
+	min-height: 350px !important;
+}
+
+.property-information-form {
+	.mat-mdc-select-placeholder {
+		color: var(--general-2) !important;
+	}
+}
+
+.ai-content {
+	strong {
+		@extend .heading-3-medium;
+		padding-top: 1rem !important;
+		display: block;
+	}
+
+	p {
+		@extend .text-body-regular;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	ul {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	li {
+		@extend .text-body-regular;
+	}
+}
+
+.ai-hub-lead {
+	li {
+		@extend .ms-4;
+	}
+}
+
+// Alert modal, checkbox
+.restrict-user-dialog {
+	max-width: 100% !important;
+
+	@include media-breakpoint-up(sm) {
+		max-width: 500px !important;
+	}
+
+	.lead-contact-us {
+		height: 100vh;
+		overflow-y: scroll;
+	}
+}

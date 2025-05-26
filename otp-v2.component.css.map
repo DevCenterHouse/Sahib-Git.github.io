@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/auth/v2/components/otp-v2/otp-v2.component.scss"],
+  "sourcesContent": ["findqo-button.change-email,\nfindqo-button.resend {\n\tdisplay: inline-block;\n\twidth: auto;\n\theight: unset;\n}\n\n// HACK: To prevent the text on moving while count value is changing\ndiv.timer {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\n\tspan {\n\t\twidth: 147px;\n\t\tmargin: auto;\n\t}\n}\n\n.close.position-absolute {\n\ttop: 16px;\n\tleft: 16px;\n}\n"],
+  "mappings": ";AAAA,aAAA,CAAA;AAAA,aAAA,CAAA;AAEC,WAAA;AACA,SAAA;AACA,UAAA;;AAID,GAAA,CAAA;AACC,WAAA;AACA,eAAA;AACA,mBAAA;;AAEA,GAAA,CALD,MAKC;AACC,SAAA;AACA,UAAA;;AAIF,CAAA,KAAA,CAAA;AACC,OAAA;AACA,QAAA;;",
+  "names": []
+}

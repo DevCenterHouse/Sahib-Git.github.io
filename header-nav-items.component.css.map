@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/header/components/header-nav-items/header-nav-items.component.scss"],
+  "sourcesContent": [":host.home-banner-nav-items {\n\ta.head-link {\n\t\tcolor: var(--basic-1) !important;\n\t}\n}\n\na.item-link {\n\twidth: 280px !important;\n\tmin-height: 45px;\n\tcolor: var(--general-5);\n\n\t&:not(:last-child) {\n\t\tborder-bottom: 1px solid var(--neutral-1);\n\t}\n}\n\na.head-link-active {\n\tborder-bottom: 3px solid var(--prim-2);\n\tborder-radius: 0;\n\tcolor: var(--prim-2) !important;\n\n\ttransition: 0.2s ease-in-out;\n}\n\n.new-sup {\n\tright: 3rem;\n\tposition: relative;\n\ttop: -15px;\n}\n"],
+  "mappings": ";AACC,KAAA,CAAA,sBAAA,CAAA,CAAA;AACC,SAAA,IAAA;;AAIF,CAAA,CAAA;AACC,SAAA;AACA,cAAA;AACA,SAAA,IAAA;;AAEA,CAAA,CALD,SAKC,KAAA;AACC,iBAAA,IAAA,MAAA,IAAA;;AAIF,CAAA,CAAA;AACC,iBAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,SAAA,IAAA;AAEA,cAAA,KAAA;;AAGD,CAAA;AACC,SAAA;AACA,YAAA;AACA,OAAA;;",
+  "names": []
+}

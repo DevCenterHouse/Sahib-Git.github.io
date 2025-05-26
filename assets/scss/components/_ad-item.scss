@@ -1,0 +1,54 @@
+/**
+This file contains style for all components under ad module*/
+
+.ad-detail-icon {
+	mat-icon.rotate-180deg {
+		transform: rotate(180deg);
+	}
+}
+
+.ad-style {
+	.mat-mdc-button.mat-mdc-button-primary.h-20px,
+	.mat-mdc-button.mat-mdc-button-base.h-20px {
+		height: 20px !important;
+	}
+
+	.video-btn.mat-mdc-unelevated-button:not(:disabled):hover {
+		color: var(--prim-2) !important;
+	}
+
+	.share-btn.mat-mdc-button:not(:disabled):hover {
+		color: var(--general-4) !important;
+	}
+
+	.chat-btn.mat-mdc-unelevated-button:not(:disabled):hover {
+		color: var(--general-5) !important;
+	}
+
+	.view-photo.mat-mdc-outlined-button:not(:disabled) {
+		background-color: rgba(26, 31, 46, 0.5) !important;
+		border: 1px solid var(--general-3) !important;
+		height: 35px !important;
+		color: var(--general-1) !important;
+	}
+
+	.photo-chat.mat-mdc-unelevated-button:not(:disabled) {
+		color: var(--general-5) !important;
+		width: 175px;
+	}
+}
+
+.share-ad .mat-mdc-dialog-container {
+	margin: 0 !important;
+}
+
+findqo-ad-featured-item {
+	.view-ad-photo.mat-mdc-outlined-button:not(:disabled) {
+		background: rgba(26, 31, 46, 0.65) !important;
+		border: none !important;
+		height: 35px !important;
+		padding: 4px 16px !important;
+		gap: 4px !important;
+		color: var(--general-1) !important;
+	}
+}

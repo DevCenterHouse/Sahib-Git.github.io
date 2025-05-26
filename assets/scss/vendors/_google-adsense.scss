@@ -1,0 +1,4 @@
+// Remove blank space if the Google Ad is empty
+ins.adsbygoogle[data-ad-status='unfilled'] {
+	display: none !important;
+}

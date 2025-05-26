@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/components/bottom-navbar/bottom-navbar.component.scss"],
+  "sourcesContent": ["nav {\n\tpadding: 0.5rem;\n\tbackground: var(--basic-1);\n\tborder-top: 1px solid var(--general-1);\n}\n\na.tab,\nbutton.tab {\n\tmin-width: 59px;\n\tpadding: 0;\n\n\tdiv.link-content {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\trow-gap: 0.25rem;\n\t\tcolumn-gap: 1rem;\n\n\t\tmat-icon {\n\t\t\tcolor: var(--general-4);\n\t\t}\n\n\t\tspan {\n\t\t\tdisplay: block;\n\t\t\tcolor: var(--general-3);\n\t\t}\n\t}\n\n\t&.active div.link-content {\n\t\tmat-icon,\n\t\tspan {\n\t\t\tcolor: var(--prim-2);\n\t\t}\n\t}\n}\n"],
+  "mappings": ";AAAA;AACC,WAAA;AACA,cAAA,IAAA;AACA,cAAA,IAAA,MAAA,IAAA;;AAGD,CAAA,CAAA;AAAA,MAAA,CAAA;AAEC,aAAA;AACA,WAAA;;AAEA,CAAA,CALD,IAKC,GAAA,CAAA;AAAA,MAAA,CALD,IAKC,GAAA,CAAA;AACC,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,eAAA;AACA,WAAA;AACA,cAAA;;AAEA,CAAA,CAbF,IAaE,GAAA,CARD,aAQC;AAAA,MAAA,CAbF,IAaE,GAAA,CARD,aAQC;AACC,SAAA,IAAA;;AAGD,CAAA,CAjBF,IAiBE,GAAA,CAZD,aAYC;AAAA,MAAA,CAjBF,IAiBE,GAAA,CAZD,aAYC;AACC,WAAA;AACA,SAAA,IAAA;;AAKD,CAAA,CAxBF,GAwBE,CAAA,OAAA,GAAA,CAnBD,aAmBC;AAAA,CAAA,CAxBF,GAwBE,CAAA,OAAA,GAAA,CAnBD,aAmBC;AAAA,MAAA,CAxBF,GAwBE,CAAA,OAAA,GAAA,CAnBD,aAmBC;AAAA,MAAA,CAxBF,GAwBE,CAAA,OAAA,GAAA,CAnBD,aAmBC;AAEC,SAAA,IAAA;;",
+  "names": []
+}

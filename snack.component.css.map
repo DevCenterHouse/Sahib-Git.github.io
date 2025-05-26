@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/snack/snack.component.scss"],
+  "sourcesContent": [".mat-icon {\n\theight: 20px !important;\n\twidth: 20px !important;\n\toverflow: unset;\n\tfont-size: 20px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;AACA,SAAA;AACA,YAAA;AACA,aAAA;;",
+  "names": []
+}

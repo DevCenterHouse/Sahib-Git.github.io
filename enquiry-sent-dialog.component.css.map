@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent/components/enquiry-sent-dialog/enquiry-sent-dialog.component.scss"],
+  "sourcesContent": ["mat-icon.check-icon {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tfont-size: 42px;\n\twidth: 60px;\n\theight: 60px;\n\tbackground: var(--prim-1);\n\tborder-radius: 100px;\n\tcolor: var(--basic-1);\n}\n"],
+  "mappings": ";AAAA,QAAA,CAAA;AACC,WAAA;AACA,eAAA;AACA,mBAAA;AACA,aAAA;AACA,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,iBAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}

@@ -1,0 +1,271 @@
+@import 'assets/scss/utils/mixins';
+
+findqo-place-ad-section .place-ad-two-tone,
+findqo-place-ad-select-account .place-ad-two-tone,
+findqo-place-ad-category .place-ad-two-tone {
+	filter: invert(11%) sepia(100%) saturate(5333%) hue-rotate(322deg) brightness(77%) contrast(103%);
+}
+
+//for place ad review component  checkbox
+findqo-place-ad-review,
+findqo-place-ad-amenities {
+	.review-checkbox.mat-mdc-checkbox .mdc-checkbox .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background {
+		background-color: var(--info-3) !important;
+		border-color: var(--info-3) !important;
+	}
+
+	.mdc-checkbox .mdc-checkbox__native-control:enabled:not(:checked) ~ .mdc-checkbox__background {
+		border: 1.5px solid var(--general-3) !important;
+		border-radius: 4px !important;
+	}
+}
+
+findqo-place-ad-location {
+	.mat-mdc-form-field-hint-wrapper {
+		padding: 0 !important;
+	}
+
+	.address-field.mat-mdc-form-field {
+		.mdc-text-field {
+			padding: 8px !important;
+		}
+	}
+}
+
+.location-list.mat-mdc-select-panel {
+	position: relative;
+	max-height: 400px !important;
+	padding: 0 0 8px 0 !important;
+}
+
+findqo-place-ad-photo {
+	.mat-mdc-progress-bar.img-progress {
+		.mdc-linear-progress__buffer-bar {
+			background-color: var(--basic-1);
+		}
+
+		.mdc-linear-progress__bar-inner {
+			--mdc-linear-progress-active-indicator-color: var(--info-3);
+			border-top-width: var(--mdc-linear-progress-track-height, 6px);
+		}
+	}
+}
+
+findqo-place-ad-steps {
+	.mat-mdc-tab-header {
+		justify-content: center;
+		align-items: center;
+		border-bottom: 1px solid var(--neutral-2);
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 400;
+		z-index: var(--z-index-place-ad-step-header);
+		position: sticky;
+		position: -webkit-sticky;
+		background-color: var(--basic-1);
+		top: 65px;
+
+		@include media-breakpoint-down(md) {
+			top: 60px;
+		}
+
+		.mat-mdc-tab-label-container {
+			max-width: 1200px;
+		}
+
+		.mat-mdc-tab:not(.mdc-tab--active, .mat-mdc-tab-disabled) {
+			.mdc-tab__text-label {
+				color: var(--general-5);
+			}
+		}
+	}
+}
+
+findqo-place-ad-form-page {
+	.mat-stepper-horizontal {
+		padding: 0;
+		margin-left: 0;
+
+		.mat-horizontal-stepper-header-container {
+			@extend .border-bottom;
+			@include media-breakpoint-down(sm) {
+				top: 111px;
+				.mat-stepper-horizontal-line {
+					margin: 0;
+				}
+			}
+
+			position: sticky;
+			top: 115px;
+			z-index: var(--z-index-place-ad-form-stepper-header);
+			height: 50px;
+			background: var(--basic-1);
+
+			.mat-horizontal-stepper-header {
+				height: 50px;
+				@include media-breakpoint-down(sm) {
+					padding: 0 8px !important;
+					.mat-step-icon:not(.mat-step-icon-selected) {
+						margin-right: 0;
+					}
+					.mat-step-label {
+						display: none;
+					}
+				}
+				.mat-step-icon {
+					width: 20px;
+					height: 20px;
+				}
+				.mat-step-label {
+					@extend .text-body-medium;
+				}
+			}
+			.mat-stepper-horizontal-line {
+				min-width: 0;
+			}
+		}
+
+		.mat-horizontal-content-container {
+			@include media-breakpoint-down(sm) {
+				padding: 0;
+			}
+		}
+	}
+}
+
+findqo-place-ad-location,
+findqo-place-ad-details {
+	.mat-form-field-appearance-outline.mat-form-field-invalid.ng-touched {
+		padding-bottom: 24px;
+	}
+}
+
+findqo-place-ad-description {
+	.mat-mdc-form-field-hint-wrapper {
+		padding: 0 !important;
+	}
+
+	.mat-mdc-form-field-hint-spacer {
+		flex: unset !important;
+	}
+}
+
+findqo-details-form {
+	// Change radio button color
+	.option-selection-radio-btn.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__outer-circle,
+	.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled + .mdc-radio__background .mdc-radio__inner-circle {
+		border-color: var(--info-3) !important;
+	}
+}
+
+findqo-place-ad-location,
+findqo-place-ad-details,
+findqo-place-ad-description {
+	.mat-mdc-select-placeholder {
+		color: var(--general-2);
+	}
+}
+
+findqo-place-ad-details {
+	.mat-mdc-radio-button {
+		.mdc-form-field {
+			width: 100%;
+			color: var(--general-4) !important;
+			--mdc-radio-unselected-icon-color: var(--general-4) !important;
+
+			& > label {
+				margin-inline-start: 0;
+				margin-inline-end: auto;
+				padding: unset !important;
+			}
+		}
+	}
+
+	.mat-mdc-radio-button.mat-mdc-radio-checked {
+		background-color: var(--info-2);
+		border: 1px solid var(--info-2);
+
+		.mdc-label {
+			color: var(--info-3) !important;
+		}
+	}
+
+	.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__outer-circle,
+	.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__inner-circle {
+		border-color: var(--info-3) !important;
+	}
+}
+
+findqo-place-ad-radio-control {
+	.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control {
+		width: 150px !important;
+		top: -10px !important;
+		left: -112px !important;
+	}
+}
+
+// change dropdowm arrow color
+
+findqo-place-ad-select-control,
+findqo-place-ad-location,
+findqo-place-ad-price-share-room {
+	.mat-mdc-select-arrow {
+		color: var(--general-3) !important;
+	}
+
+	.mat-mdc-select-arrow-wrapper {
+		margin-inline-end: 10px;
+	}
+}
+
+findqo-details-form {
+	.upload-file {
+		.mat-mdc-text-field-wrapper.mdc-text-field {
+			padding-right: 0 !important;
+		}
+
+		.mat-mdc-form-field-icon-prefix > .mat-icon {
+			padding: 6px 0px !important;
+		}
+
+		.mat-mdc-form-field-hint-spacer {
+			flex: 0;
+		}
+	}
+
+	.bg-grey {
+		.mat-mdc-text-field-wrapper.mdc-text-field {
+			background-color: var(--neutral-1);
+		}
+	}
+}
+
+findqo-place-ad-location,
+findqo-place-ad-price-general,
+findqo-place-ad-contact {
+	.mdc-checkbox .mdc-checkbox__native-control:enabled:not(:checked) ~ .mdc-checkbox__background {
+		border: 1.5px solid var(--general-3) !important;
+		border-radius: 4px !important;
+		--mdc-checkbox-unselected-focus-state-layer-color: var(--general-3) !important;
+		--mdc-checkbox-unselected-hover-state-layer-color: var(--general-3) !important;
+		--mdc-checkbox-unselected-pressed-state-layer-color: var(--general-3) !important;
+	}
+
+	.mat-mdc-checkbox .mdc-checkbox .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background {
+		border-radius: 4px !important;
+	}
+
+	.mdc-checkbox .mdc-checkbox__native-control:enabled ~ .mdc-checkbox__background .mdc-checkbox__checkmark {
+		padding: 2px;
+		width: 15px;
+		margin: 1px;
+	}
+}
+
+findqo-place-ad-submitted {
+	.link-text {
+		a {
+			color: var(--prim-2) !important;
+		}
+	}
+}

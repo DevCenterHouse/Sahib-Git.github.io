@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/commercial-space-estimation/components/valuation-calculated/skeleton-loader/skeleton-loader.component.scss"],
+  "sourcesContent": [".h-50vh {\n\theight: 50vh;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;;",
+  "names": []
+}

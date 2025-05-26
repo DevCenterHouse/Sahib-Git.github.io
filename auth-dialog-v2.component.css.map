@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/auth/v2/auth-dialog-v2.component.scss"],
+  "sourcesContent": [".dialog-container {\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\theight: 100%;\n\tpadding: 16px 16px 24px 16px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,UAAA;AACA,WAAA,KAAA,KAAA,KAAA;;",
+  "names": []
+}

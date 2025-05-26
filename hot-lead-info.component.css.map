@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/leads/hot-lead-info/hot-lead-info.component.ts"],
+  "sourcesContent": ["\n\t\t.hot-lead {\n\t\t\tborder: 1px solid var(--alert-3);\n\t\t\tborder-radius: 4px;\n\t\t\tpadding: 8px;\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,WAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/ad-item/v2/ad-item-v2.component.scss"],
+  "sourcesContent": [".col-max-height {\n\tmax-height: 200px;\n}\n\n.image-container {\n\theight: 200px;\n}\n\n.ad-image {\n\tobject-fit: cover;\n\tborder-radius: 4px;\n\tz-index: -1;\n}\n\n.line {\n\theight: 15px;\n\twidth: 1px;\n\tbackground: var(--neutral-2);\n}\n\n.border-verified {\n\tborder: 1px solid var(--success-3);\n}\n\n.icon-14px {\n\tfont-size: 14px;\n\twidth: 14px;\n\theight: 14px;\n}\n\n.h-25px {\n\theight: 25px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,cAAA;;AAGD,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,cAAA;AACA,iBAAA;AACA,WAAA;;AAGD,CAAA;AACC,UAAA;AACA,SAAA;AACA,cAAA,IAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,aAAA;AACA,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;;",
+  "names": []
+}

@@ -1,0 +1,13 @@
+.feedback-chip-selected.mat-mdc-standard-chip {
+	--mdc-chip-label-text-color: var(--prim-2) !important;
+}
+
+.feedback-chip.mat-mdc-standard-chip {
+	--mdc-chip-label-text-color: var(--general-4) !important;
+}
+
+findqo-property-alert-dialog {
+	mat-select .mat-mdc-select-placeholder {
+		color: var(--general-2) !important;
+	}
+}

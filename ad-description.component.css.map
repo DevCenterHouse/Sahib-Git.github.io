@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/ad-detail/component/ad-description/ad-description.component.scss"],
+  "sourcesContent": [".description {\n\tmax-height: unset;\n\toverflow: hidden;\n}\n\n.format-description {\n\twhite-space: pre-line;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,cAAA;AACA,YAAA;;AAGD,CAAA;AACC,eAAA;;",
+  "names": []
+}

@@ -1,0 +1,13 @@
+.cdk-overlay-container {
+	// Resolve offcanvas covering dialogs and options
+	z-index: 1050 !important;
+
+	.ad-images {
+		max-width: 100vw !important;
+
+		.mat-mdc-dialog-container {
+			margin: 0 !important;
+			--mdc-dialog-container-color: var(--general-5) !important;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/other-ad-list/other-ad-list.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { SharedModule } from '@shared/shared.module';\nimport { OtherAdListComponent } from './other-ad-list.component';\nimport { PropertySizeIconModule } from '../property-size/property-size-icon.module';\nimport { BedroomIconModule } from '../bedroom/bedroom-icon.module';\nimport { ShowerIconModule } from '../icons/shower/shower-icon.module';\n\n@NgModule({\n\tdeclarations: [OtherAdListComponent],\n\timports: [SharedModule, PropertySizeIconModule, BedroomIconModule, ShowerIconModule],\n\texports: [OtherAdListComponent],\n})\nexport class OtherAdListModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAYM,IAAO,oBAAP,MAAO,mBAAiB;;;uCAAjB,oBAAiB;IAAA;EAAA;;wEAAjB,mBAAiB,CAAA;EAAA;;4EAHnB,cAAc,wBAAwB,mBAAmB,gBAAgB,EAAA,CAAA;EAAA;;;sEAGvE,mBAAiB,CAAA;UAL7B;WAAS;MACT,cAAc,CAAC,oBAAoB;MACnC,SAAS,CAAC,cAAc,wBAAwB,mBAAmB,gBAAgB;MACnF,SAAS,CAAC,oBAAoB;KAC9B;;;",
+  "names": []
+}

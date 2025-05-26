@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/ad-detail/components/ad-photos/ad-photos.component.scss"],
+  "sourcesContent": [".h-119px {\n\theight: 119px !important;\n}\n\n.swiper-wrapper {\n\twidth: 200px !important;\n}\n\n.object-fit-cover {\n\tobject-fit: cover !important;\n}\n\n.swiper-button-next,\n.swiper-button-prev {\n\ttransform: translateY(25%) !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,SAAA;;AAGD,CAAA;AACC,cAAA;;AAGD,CAAA;AAAA,CAAA;AAEC,aAAA,WAAA;;",
+  "names": []
+}

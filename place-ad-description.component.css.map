@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/place-ad-description/place-ad-description.component.scss"],
+  "sourcesContent": ["textarea {\n\tresize: none;\n}\n\n.anti-discriminatory {\n\tborder: 1px solid var(--general-2);\n\tborder-radius: 4px;\n\n\t.mat-icon {\n\t\tdisplay: block !important;\n\t\tfont-size: 20px;\n\t\toverflow: unset;\n\t\twidth: 20px;\n\t\theight: 20px;\n\t}\n}\n"],
+  "mappings": ";AAAA;AACC,UAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;;AAEA,CAJD,oBAIC,CAAA;AACC,WAAA;AACA,aAAA;AACA,YAAA;AACA,SAAA;AACA,UAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/google-ad/google-ad.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { GoogleAdComponent } from './google-ad.component';\nimport { SharedModule } from '@shared/shared.module';\nimport { AdsenseModule } from 'ng2-adsense';\nimport { environment } from '@environments/environment';\n\n@NgModule({\n\tdeclarations: [GoogleAdComponent],\n\timports: [\n\t\tSharedModule,\n\t\tAdsenseModule.forRoot({\n\t\t\tadClient: environment.googleAdSense.adClient,\n\t\t\tdisplay: environment.googleAdSense.display,\n\t\t}),\n\t],\n\texports: [GoogleAdComponent],\n})\nexport class GoogleAdModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;AAiBM,IAAO,iBAAP,MAAO,gBAAc;;;uCAAd,iBAAc;IAAA;EAAA;;wEAAd,gBAAc,CAAA;EAAA;;;MARzB;MACA,cAAc,QAAQ;QACrB,UAAU,YAAY,cAAc;QACpC,SAAS,YAAY,cAAc;OACnC;IAAC,EAAA,CAAA;EAAA;;;sEAIS,gBAAc,CAAA;UAX1B;WAAS;MACT,cAAc,CAAC,iBAAiB;MAChC,SAAS;QACR;QACA,cAAc,QAAQ;UACrB,UAAU,YAAY,cAAc;UACpC,SAAS,YAAY,cAAc;SACnC;;MAEF,SAAS,CAAC,iBAAiB;KAC3B;;;",
+  "names": []
+}

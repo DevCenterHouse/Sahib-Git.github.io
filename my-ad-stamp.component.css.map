@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-ads/components/my-ad-stamp/my-ad-stamp.component.scss"],
+  "sourcesContent": [".status {\n\tpadding: 0px 8px;\n\tgap: 4px;\n\tborder: 1px solid;\n\tborder-radius: 4px;\n\twidth: auto;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,WAAA,IAAA;AACA,OAAA;AACA,UAAA,IAAA;AACA,iBAAA;AACA,SAAA;;",
+  "names": []
+}

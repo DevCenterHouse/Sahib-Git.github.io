@@ -1,0 +1,16 @@
+@import 'assets/scss/utils/mixins';
+
+//tenantin profile dialog overlay styles
+.cdk-overlay-pane.tenantin-required {
+	max-width: 343px !important;
+
+	@include media-breakpoint-up(sm) {
+		max-width: 400px !important;
+	}
+}
+
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing.tenantin-backdrop {
+	opacity: 0.75 !important;
+	background-color: var(--general-6) !important;
+	z-index: var(--z-index-tenantin-profile-dialog);
+}

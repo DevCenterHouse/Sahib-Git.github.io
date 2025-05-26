@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/general/filters/components/filters-sort/filters-sort.component.scss"],
+  "sourcesContent": [".container-fluid {\n\tmin-width: 200px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;;",
+  "names": []
+}

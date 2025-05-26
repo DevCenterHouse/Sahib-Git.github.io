@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/favorites/components/no-favorties-ads/no-favorties-ads.component.scss"],
+  "sourcesContent": [".img-fluid {\n\tobject-fit: cover;\n\theight: 204px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,cAAA;AACA,UAAA;;",
+  "names": []
+}

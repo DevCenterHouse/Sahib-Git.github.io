@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/place-ad-contact/place-ad-contact.component.scss"],
+  "sourcesContent": [".w-40px {\n\twidth: 40px;\n}\n\n.mx-7px {\n\tmargin: 0 -7px !important;\n}\n\n.-mx-10px {\n\tmargin: 0 -10px !important;\n}\n\n.h-35px {\n\theight: 35px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;;AAGD,CAAA;AACC,UAAA,EAAA;;AAGD,CAAA;AACC,UAAA,EAAA;;AAGD,CAAA;AACC,UAAA;;",
+  "names": []
+}

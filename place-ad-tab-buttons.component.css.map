@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/plac-ad-tab-buttons/place-ad-tab-buttons.component.scss"],
+  "sourcesContent": [".mw-550px {\n\tmax-width: 550px;\n}\n\nfindqo-button {\n\theight: 40px;\n}\n\n.w-125px {\n\twidth: 125px;\n}\n\n.container-fluid {\n\tz-index: var(--z-index-place-ad-action-btn);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;;AAGD;AACC,UAAA;;AAGD,CAAA;AACC,SAAA;;AAGD,CAAA;AACC,WAAA,IAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/ad-list-skeleton-loading/ad-list-skeleton-loading.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { SharedModule } from '@shared/shared.module';\nimport { AdListSkeletonLoadingComponent } from './ad-list-skeleton-loading.component';\n\n@NgModule({\n\tdeclarations: [AdListSkeletonLoadingComponent],\n\timports: [SharedModule],\n\texports: [AdListSkeletonLoadingComponent],\n})\nexport class AdListSkeletonLoadingModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;AASM,IAAO,8BAAP,MAAO,6BAA2B;;;uCAA3B,8BAA2B;IAAA;EAAA;;wEAA3B,6BAA2B,CAAA;EAAA;;4EAH7B,YAAY,EAAA,CAAA;EAAA;;;sEAGV,6BAA2B,CAAA;UALvC;WAAS;MACT,cAAc,CAAC,8BAA8B;MAC7C,SAAS,CAAC,YAAY;MACtB,SAAS,CAAC,8BAA8B;KACxC;;;",
+  "names": []
+}

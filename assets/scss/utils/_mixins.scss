@@ -1,0 +1,65 @@
+@import 'bootstrap/scss/functions', 'bootstrap/scss/variables', 'bootstrap/scss/mixins';
+
+// NOTE: The breakpoints should be same the as breakpoint observer in APP.INITIALIZER
+// Breakpoints are same with the Bootstrap v5.0.
+// @links https://getbootstrap.com/docs/5.0/layout/breakpoints/
+
+/* BOOTSTRAP BREAKPOINT MIXINS */
+// Min-width
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+// @include media-breakpoint-up(xxl) { ... }
+
+// Single breakpoint
+// @include media-breakpoint-only(xs) { ... }
+// @include media-breakpoint-only(sm) { ... }
+// @include media-breakpoint-only(md) { ... }
+// @include media-breakpoint-only(lg) { ... }
+// @include media-breakpoint-only(xl) { ... }
+// @include media-breakpoint-only(xxl) { ... }
+
+// No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }`
+// @include media-breakpoint-down(sm) { ... }
+// @include media-breakpoint-down(md) { ... }
+// @include media-breakpoint-down(lg) { ... }
+// @include media-breakpoint-down(xl) { ... }
+// @include media-breakpoint-down(xxl) { ... }
+
+// TODO: Removed the custom mixins belowe as we will now use the mixins from Bootstrap for media queries.
+
+// xs - sm
+@mixin mobile-only {
+	@media all and (max-width: 576px) {
+		@content;
+	}
+}
+
+// xs - md
+@mixin mobile-and-small-tablet-only {
+	@media all and (max-width: 768px) {
+		@content;
+	}
+}
+
+// sm - xl
+@mixin tablet-only {
+	@media all and (min-width: 576px) and (max-width: 1199px) {
+		@content;
+	}
+}
+
+// xl up
+@mixin desktop-only {
+	@media all and (min-width: 1200px) {
+		@content;
+	}
+}
+
+// xxl up
+@mixin big-desktop-only {
+	@media all and (min-width: 1400px) {
+		@content;
+	}
+}

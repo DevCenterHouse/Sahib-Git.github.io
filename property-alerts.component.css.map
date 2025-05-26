@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/property-alerts/property-alerts.component.scss"],
+  "sourcesContent": [".mb-custom {\n\tmargin-bottom: 5rem !important;\n}\n.h-74px {\n\theight: 74px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,iBAAA;;AAED,CAAA;AACC,UAAA;;",
+  "names": []
+}

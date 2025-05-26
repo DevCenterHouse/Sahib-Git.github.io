@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/guards/public.guard.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { ActivatedRouteSnapshot, Router, RouterStateSnapshot } from '@angular/router';\nimport { APP_ROUTE } from '@core/constants';\nimport { RouteService } from '@core/services/route.service';\n\n/**\n * If navigating from the Public pages, then it will redirect the user to a Public route.\n */\n\n@Injectable({\n\tprovidedIn: 'root',\n})\nexport class PublicGuard {\n\tconstructor(private readonly routeService: RouteService, private readonly router: Router) {}\n\n\tcanActivate(_route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {\n\t\tconst PREVIOUS_ROUTE_DATA = this.routeService.getRouteData();\n\n\t\t// Check if the route data property value of `isPublicPage` is equal to true, then redirect the user into a Public route.\n\t\tif (PREVIOUS_ROUTE_DATA?.isPublicPage) {\n\t\t\tthis.router.navigateByUrl(`${APP_ROUTE.public.base}${state.url}`);\n\n\t\t\treturn false;\n\t\t}\n\n\t\treturn true;\n\t}\n}\n"],
+  "mappings": ";;;;;;;;;;;;;AAYM,IAAO,cAAP,MAAO,aAAW;EACvB,YAA6B,cAA6C,QAAc;AAA3D,SAAA,eAAA;AAA6C,SAAA,SAAA;EAAiB;EAE3F,YAAY,QAAgC,OAA0B;AACrE,UAAM,sBAAsB,KAAK,aAAa,aAAY;AAG1D,QAAI,qBAAqB,cAAc;AACtC,WAAK,OAAO,cAAc,GAAG,UAAU,OAAO,IAAI,GAAG,MAAM,GAAG,EAAE;AAEhE,aAAO;IACR;AAEA,WAAO;EACR;;;uCAdY,cAAW,mBAAA,YAAA,GAAA,mBAAA,MAAA,CAAA;IAAA;EAAA;;4EAAX,cAAW,SAAX,aAAW,WAAA,YAFX,OAAM,CAAA;EAAA;;;sEAEN,aAAW,CAAA;UAHvB;WAAW;MACX,YAAY;KACZ;;;",
+  "names": []
+}

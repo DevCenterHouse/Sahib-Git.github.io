@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/my-profile.constant.ts"],
+  "sourcesContent": ["export const DEFAULT_EMAIL_PLACEHOLDER = 'lynott@irishhousemate.ie';\n\nexport const EDIT_DIALOG_STATIC_DATA = {\n\tname: {\n\t\ttitle: 'n3992',\n\t\tlabel: 'n3098',\n\t\thint: 'n3097',\n\t\ttype: 'text',\n\t\tmaxLength: '80',\n\t\tminLength: '3',\n\t\tpatternError: 'n3634',\n\t},\n\tphone: {\n\t\ttitle: 'n80',\n\t\thint: 'n3993',\n\t\ttype: 'tel',\n\t\tmaxLength: '10',\n\t\tminLength: '7',\n\t\tpatternError: 'n3960',\n\t\tphoneCode: '+353',\n\t},\n\temail: {\n\t\ttitle: 'n3994',\n\t},\n};\nexport const cancelReason = {\n\tnoNeed: 'I no longer need the subscription',\n\texpensive: 'Subscription is too expensive',\n\texpectations: 'Service did not meet my expectations',\n\tissues: 'I am experiencing technical issues',\n\tnotUsing: 'I am not using the service enough',\n\tsupport: 'I am not dissatisfied with customer support',\n\tfinancial: 'My financial situation has changed',\n\tother: 'Other (Please specify)',\n};\n"],
+  "mappings": ";AAAO,IAAM,4BAA4B;AAElC,IAAM,0BAA0B;EACtC,MAAM;IACL,OAAO;IACP,OAAO;IACP,MAAM;IACN,MAAM;IACN,WAAW;IACX,WAAW;IACX,cAAc;;EAEf,OAAO;IACN,OAAO;IACP,MAAM;IACN,MAAM;IACN,WAAW;IACX,WAAW;IACX,cAAc;IACd,WAAW;;EAEZ,OAAO;IACN,OAAO;;;AAGF,IAAM,eAAe;EAC3B,QAAQ;EACR,WAAW;EACX,cAAc;EACd,QAAQ;EACR,UAAU;EACV,SAAS;EACT,WAAW;EACX,OAAO;;",
+  "names": []
+}

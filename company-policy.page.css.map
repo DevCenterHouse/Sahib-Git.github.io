@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/company-policy/company-policy.page.scss"],
+  "sourcesContent": [".w-700px {\n\tmax-width: 700px;\n\twidth: 100%;\n}\n\na {\n\ttext-decoration: underline !important;\n\tcolor: var(--general-4) !important;\n}\n\np {\n\ttext-align: justify;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,SAAA;;AAGD;AACC,mBAAA;AACA,SAAA,IAAA;;AAGD;AACC,cAAA;;",
+  "names": []
+}

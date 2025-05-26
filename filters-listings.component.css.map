@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/components/filters-listings/filters-listings.component.scss"],
+  "sourcesContent": [".inquiry-container {\n\toverflow-y: auto;\n\tpadding-top: 60px;\n\n\tscrollbar-color: var(--general-2);\n\tscrollbar-width: thin;\n\n\t&::-webkit-scrollbar {\n\t\twidth: 8px;\n\t\theight: 8px;\n\t}\n\n\t&::-webkit-scrollbar-thumb {\n\t\tborder-radius: 100px;\n\t\tbackground: var(--general-2);\n\t}\n}\n\n.inquiry-header {\n\theight: 60px;\n\tmax-width: 400px;\n\tz-index: 2;\n}\n\n.close-btn {\n\twidth: 40px !important;\n\theight: 40px !important;\n\tbox-shadow: unset !important;\n}\n\n.icon-20px {\n\tfont-size: 20px;\n\twidth: 20px;\n\theight: 20px;\n}\n\n.filter {\n\tborder: 1px solid var(--prim-2);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,cAAA;AACA,eAAA;AAEA,mBAAA,IAAA;AACA,mBAAA;;AAEA,CAPD,iBAOC;AACC,SAAA;AACA,UAAA;;AAGD,CAZD,iBAYC;AACC,iBAAA;AACA,cAAA,IAAA;;AAIF,CAAA;AACC,UAAA;AACA,aAAA;AACA,WAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA;;AAGD,CAAA;AACC,aAAA;AACA,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;;",
+  "names": []
+}

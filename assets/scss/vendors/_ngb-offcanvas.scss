@@ -1,0 +1,31 @@
+.offcanvas {
+	transition: transform 0.15s ease-in-out;
+	overflow: scroll;
+}
+
+.offcanvas-backdrop {
+	mix-blend-mode: normal;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.offcanvas-backdrop.show {
+	opacity: 1;
+}
+
+.offcanvas.offcanvas-start,
+.offcanvas.offcanvas-end,
+.offcanvas.offcanvas-bottom,
+.offcanvas.offcanvas-top {
+	border: 0px;
+	box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.offcanvas.offcanvas-start,
+.offcanvas.offcanvas-end {
+	width: 75vw;
+}
+
+.offcanvas.offcanvas-bottom,
+.offcanvas.offcanvas-top {
+	height: 85vh;
+}

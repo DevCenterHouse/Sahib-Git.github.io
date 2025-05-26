@@ -1,0 +1,124 @@
+/*
+	This file configures themes specifically for Angular Material.
+*/
+
+@use '@angular/material' as mat;
+@include mat.elevation-classes();
+@include mat.app-background();
+
+@import '@angular/cdk/overlay-prebuilt.css';
+
+$findqo-website-primary-palette: (
+	50: #fde0f1,
+	100: #fab3db,
+	200: #f780c4,
+	300: #f34dac,
+	400: #f1269a,
+	500: #ee0088,
+	600: #ec0080,
+	700: #e90075,
+	800: #e7006b,
+	900: #e20058,
+	A100: #ffffff,
+	A200: #ffd6e3,
+	A400: #ffa3c1,
+	A700: #ff8ab0,
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #ffffff,
+		500: #ffffff,
+		600: #ffffff,
+		700: #ffffff,
+		800: #ffffff,
+		900: #ffffff,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+
+$findqo-website-accent-palette: (
+	50: #e7fdfd,
+	100: #c2fafa,
+	200: #99f7f7,
+	300: #70f3f3,
+	400: #52f1f1,
+	500: #33eeee,
+	600: #2eecec,
+	700: #27e9e9,
+	800: #20e7e7,
+	900: #14e2e2,
+	A100: #ffffff,
+	A200: #dfffff,
+	A400: #acffff,
+	A700: #92ffff,
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #000000,
+		500: #000000,
+		600: #000000,
+		700: #000000,
+		800: #000000,
+		900: #000000,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+
+$findqo-website-warn-palette: (
+	50: #fde8eb,
+	100: #fac6cd,
+	200: #f6a1ac,
+	300: #f27b8a,
+	400: #f05e71,
+	500: #ed4258,
+	600: #eb3c50,
+	700: #e83347,
+	800: #e52b3d,
+	900: #e01d2d,
+	A100: #ffffff,
+	A200: #ffe3e5,
+	A400: #ffb0b5,
+	A700: #ff969d,
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #000000,
+		500: #ffffff,
+		600: #ffffff,
+		700: #ffffff,
+		800: #ffffff,
+		900: #ffffff,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+
+$findqo-website-primary: mat.m2-define-palette($findqo-website-primary-palette, 500);
+$findqo-website-accent: mat.m2-define-palette($findqo-website-accent-palette, 500);
+$findqo-website-warn: mat.m2-define-palette($findqo-website-warn-palette, 500);
+
+$findqo-website-theme: mat.m2-define-light-theme(
+	(
+		color: (
+			primary: $findqo-website-primary,
+			accent: $findqo-website-accent,
+			warn: $findqo-website-warn,
+		),
+	)
+);
+
+@include mat.all-component-themes($findqo-website-theme);

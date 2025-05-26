@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/v2/components/business-info-card/business-info-card.component.scss"],
+  "sourcesContent": [".rounded-10px {\n\tborder-radius: 10px !important;\n}\n\n.edit-icon-button {\n\twidth: 26px !important;\n\theight: 26px !important;\n\tborder-radius: 4px;\n\tdisplay: inline-flex;\n\tjustify-content: center !important;\n\talign-items: center !important;\n\n\tmat-icon {\n\t\tfont-size: 18px !important;\n\t\twidth: 18px !important;\n\t\theight: 18px !important;\n\t\tmargin: 0 !important;\n\t\tpadding: 9 !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,iBAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;AACA,WAAA;AACA,mBAAA;AACA,eAAA;;AAEA,CARD,iBAQC;AACC,aAAA;AACA,SAAA;AACA,UAAA;AACA,UAAA;AACA,WAAA;;",
+  "names": []
+}

@@ -1,0 +1,69 @@
+@import 'assets/scss/utils/mixins';
+
+findqo-send-inquiry-dialog {
+	form.send-inquiry {
+		@include media-breakpoint-down(sm) {
+			.mat-mdc-form-field-error-wrapper {
+				padding: 0 !important;
+			}
+		}
+	}
+
+	// Change radio button color
+	.option-selection-radio-btn.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__outer-circle,
+	.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled + .mdc-radio__background .mdc-radio__inner-circle {
+		border-color: var(--info-3) !important;
+	}
+
+	// Change findqo btn color
+	.ad-more-child-btn.mat-mdc-outlined-button:not(:disabled) {
+		border: 1px solid var(--general-2) !important;
+		color: var(--general-4) !important;
+	}
+
+	.mat-mdc-checkbox.tenantin-checkbox > .mdc-form-field {
+		align-items: baseline !important;
+	}
+
+	.tenantin-url.mat-mdc-form-field .mat-mdc-text-field-wrapper {
+		background-color: var(--basic-1);
+	}
+
+	mat-radio-group.payment-mode {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+
+		mat-radio-button {
+			@extend .text-body-regular;
+
+			padding: 11px 16px;
+			border-radius: 4px;
+			border: 1px solid var(--general-2);
+			max-width: 163.5px;
+			width: 100%;
+			// color: var(--general-4) !important;
+
+			&.active {
+				border: 1px solid var(--info-3);
+				background-color: var(--info-1);
+			}
+		}
+
+		// Overrides
+		.mat-mdc-radio-button .mdc-form-field {
+			justify-content: space-between;
+			width: 100%;
+
+			.mdc-label {
+				margin-left: 0;
+			}
+		}
+
+		.mdc-form-field--align-end > label {
+			color: var(--general-4);
+		}
+		// end - Overrides
+	}
+}

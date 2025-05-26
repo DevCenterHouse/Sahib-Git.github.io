@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/ad-detail/component/ad-dealer-summary/ad-dealer-summary.component.scss"],
+  "sourcesContent": [".individual-img {\n\twidth: 60px;\n\theight: 60px;\n\tobject-fit: contain;\n\tborder-radius: 50%;\n}\n\n.business-img {\n\twidth: 54px;\n\theight: 40px;\n\tobject-fit: cover;\n\tborder-radius: 4px;\n}\n\n.view-list {\n\twidth: fit-content;\n\theight: 40px;\n\tline-height: 40px;\n}\n\n.agent-img {\n\tobject-fit: cover;\n\tborder-radius: 50%;\n}\n\n.dealer-summary {\n\tbackground-color: var(--general-1);\n\tborder-radius: 4px;\n}\n\n.mat-icon.phone-icon {\n\tdisplay: inline-block !important;\n\twidth: 18px;\n\theight: 18px;\n\tvertical-align: middle;\n\tmargin-inline-end: 8px;\n\tfont-size: 18px;\n}\n\n.mw-343px {\n\tmax-width: 343px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA;AACA,iBAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA;AACA,iBAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,eAAA;;AAGD,CAAA;AACC,cAAA;AACA,iBAAA;;AAGD,CAAA;AACC,oBAAA,IAAA;AACA,iBAAA;;AAGD,CAAA,QAAA,CAAA;AACC,WAAA;AACA,SAAA;AACA,UAAA;AACA,kBAAA;AACA,qBAAA;AACA,aAAA;;AAGD,CAAA;AACC,aAAA;;",
+  "names": []
+}

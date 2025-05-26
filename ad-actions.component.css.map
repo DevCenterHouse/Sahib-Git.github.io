@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/ad-detail/component/ad-actions/ad-actions.component.scss"],
+  "sourcesContent": [".mat-icon.phone-icon {\n\tdisplay: inline-block !important;\n\twidth: 18px;\n\theight: 18px;\n\tvertical-align: sub;\n\tmargin-inline-end: 8px;\n\tfont-size: 18px;\n}\n\n.mobile-button {\n\twidth: 170px !important;\n}\n.display-none {\n\tdisplay: none !important\n\t;\n}\n.phone-btn {\n\theight: 40px;\n\twidth: auto;\n}\n.submit-btn {\n\theight: 40px;\n\twidth: 150px;\n}\n"],
+  "mappings": ";AAAA,CAAA,QAAA,CAAA;AACC,WAAA;AACA,SAAA;AACA,UAAA;AACA,kBAAA;AACA,qBAAA;AACA,aAAA;;AAGD,CAAA;AACC,SAAA;;AAED,CAAA;AACC,WAAA;;AAGD,CAAA;AACC,UAAA;AACA,SAAA;;AAED,CAAA;AACC,UAAA;AACA,SAAA;;",
+  "names": []
+}

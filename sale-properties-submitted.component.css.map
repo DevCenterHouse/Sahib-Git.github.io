@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/sale-properties-submitted/sale-properties-submitted.component.scss"],
+  "sourcesContent": [".email-icon {\n\tfont-size: 18px;\n\tdisplay: inline-block !important;\n\tvertical-align: middle;\n\twidth: 18px;\n\theight: 18px;\n}\n\n.email-container {\n\theight: 40px;\n\tborder-radius: 4px;\n\tmargin-inline-end: 8px;\n\tmargin-top: 16px;\n\tmargin-bottom: 24px;\n\tline-height: 40px;\n}\n\n.container {\n\tmax-width: 500px;\n\tposition: absolute;\n\ttop: 50%;\n\ttransform: translate(-50%, -50%);\n\tleft: 50%;\n}\n\nbutton {\n\theight: 40px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,WAAA;AACA,kBAAA;AACA,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,iBAAA;AACA,qBAAA;AACA,cAAA;AACA,iBAAA;AACA,eAAA;;AAGD,CAAA;AACC,aAAA;AACA,YAAA;AACA,OAAA;AACA,aAAA,UAAA,IAAA,EAAA;AACA,QAAA;;AAGD;AACC,UAAA;;",
+  "names": []
+}

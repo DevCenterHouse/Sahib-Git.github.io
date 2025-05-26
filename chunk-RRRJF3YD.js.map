@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/leads/commercial-lead-details/typeof.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\n\n@Pipe({\n\tstandalone: true,\n\tname: 'typeof',\n})\nexport class TypeofPipe implements PipeTransform {\n\ttransform<T>(value: T): string {\n\t\treturn String(typeof value);\n\t}\n}\n"],
+  "mappings": ";;;;;;;AAMM,IAAO,aAAP,MAAO,YAAU;EACtB,UAAa,OAAQ;AACpB,WAAO,OAAO,OAAO,KAAK;EAC3B;;;uCAHY,aAAU;IAAA;EAAA;;qFAAV,aAAU,MAAA,KAAA,CAAA;EAAA;;;sEAAV,YAAU,CAAA;UAJtB;WAAK;MACL,YAAY;MACZ,MAAM;KACN;;;",
+  "names": []
+}

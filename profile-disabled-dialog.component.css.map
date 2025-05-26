@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/profile-disabled-dialog/profile-disabled-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.h-60px {\n\theight: 60px;\n}\n\n.contact-icons {\n\twidth: 30px;\n\theight: 30px;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground-color: rgba(255, 90, 184, 0.1);\n\n\tmat-icon {\n\t\tfont-size: 18px !important;\n\t\twidth: 18px !important;\n\t\theight: 18px !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,WAAA;AACA,eAAA;AACA,mBAAA;AACA,oBAAA,KAAA,GAAA,EAAA,EAAA,EAAA,GAAA,EAAA;;AAEA,CARD,cAQC;AACC,aAAA;AACA,SAAA;AACA,UAAA;;",
+  "names": []
+}

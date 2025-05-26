@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/ad-detail/component/no-enquiry-dialog/no-enquiry-dialog.component.scss"],
+  "sourcesContent": [".enquiry-button {\n\twidth: 100%;\n\tmax-width: 250px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,aAAA;;",
+  "names": []
+}

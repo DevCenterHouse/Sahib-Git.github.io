@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/ad-detail/component/ad-extras/ad-extras.component.scss"],
+  "sourcesContent": [".pe-40px {\n\tpadding-inline-end: 40px;\n}\n\n.extras-list {\n\tlist-style-type: disc !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,sBAAA;;AAGD,CAAA;AACC,mBAAA;;",
+  "names": []
+}

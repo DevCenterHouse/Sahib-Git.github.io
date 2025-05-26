@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/v2/components/subscription-offer-dialog/subscription-offer-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n}\n\n.dialog-header {\n\theight: 60px;\n\tposition: absolute;\n}\n\n.container {\n\tposition: relative;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,YAAA;;AAGD,CAAA;AACC,YAAA;;",
+  "names": []
+}

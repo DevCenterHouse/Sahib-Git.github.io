@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/progress-spinner/progress-spinner.component.ts"],
+  "sourcesContent": ["\n\t\t.overlay {\n\t\t\tposition: fixed;\n\t\t\ttop: 0;\n\t\t\tleft: 0;\n\t\t\twidth: 100vw;\n\t\t\theight: 100vh;\n\t\t\tbackground: rgba(0, 0, 0, 0.1);\n\t\t\tdisplay: flex;\n\t\t\talign-items: center;\n\t\t\tjustify-content: center;\n\t\t\tz-index: var(--z-index-progress-spinner);\n\t\t}\n\t\t.mat-mdc-progress-spinner {\n\t\t\t--mdc-circular-progress-active-indicator-color: var(--info-3);\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,YAAA;AACA,OAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,cAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;AACA,WAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA,IAAA;;AAED,CAAA;AACC,kDAAA,IAAA;;",
+  "names": []
+}

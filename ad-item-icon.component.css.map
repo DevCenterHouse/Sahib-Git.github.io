@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/ad-item-icon/ad-item-icon.component.scss"],
+  "sourcesContent": [".icon-image {\n\twidth: 16px;\n\theight: 16px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;;",
+  "names": []
+}

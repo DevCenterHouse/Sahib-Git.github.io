@@ -1,0 +1,35 @@
+//Change radio button color
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__outer-circle,
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled + .mdc-radio__background .mdc-radio__inner-circle {
+	border-color: var(--prim-2) !important;
+}
+
+// Remove the ripple effect
+.mat-mdc-radio-button.mat-accent {
+	--mat-mdc-radio-checked-ripple-color: none !important;
+	--mdc-radio-unselected-icon-color: var(--general-5) !important;
+}
+
+.mat-mdc-radio-button .mdc-radio .mdc-radio__background::before {
+	background-color: transparent !important;
+}
+
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:not(:checked) + .mdc-radio__background .mdc-radio__outer-circle {
+	color: var(--general-5) !important;
+}
+
+.mat-mdc-radio-button .mdc-radio {
+	padding: 0px !important;
+}
+
+.user-avatar .mat-mdc-radio-button .mdc-radio .mdc-radio__native-control {
+	width: var(--mdc-radio-state-layer-size, 18px) !important;
+	height: var(--mdc-radio-state-layer-size, 18px) !important;
+}
+
+.user-avatar .mat-mdc-radio-button .mdc-form-field .mdc-radio .mat-mdc-radio-touch-target,
+.user-avatar .mdc-radio__background,
+.user-avatar .mdc-radio {
+	height: 20px !important;
+	width: 20px !important;
+}

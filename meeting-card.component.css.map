@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/components/meeting-card/meeting-card.component.scss"],
+  "sourcesContent": [".meeting-card {\n\tborder: 1px solid var(--neutral-2);\n\tborder-radius: 8px;\n}\n\nmat-divider {\n\tmargin-left: -16px;\n\tmargin-right: -16px;\n\tborder-color: var(--neutral-1) !important;\n}\n\n.inactive {\n\topacity: 0.5;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;;AAGD;AACC,eAAA;AACA,gBAAA;AACA,gBAAA,IAAA;;AAGD,CAAA;AACC,WAAA;;",
+  "names": []
+}

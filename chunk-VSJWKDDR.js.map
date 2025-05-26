@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/services/response.service.ts"],
+  "sourcesContent": ["import { inject, Inject, Injectable, Optional, PLATFORM_ID } from '@angular/core';\nimport { isPlatformServer } from '@angular/common';\n@Injectable()\nexport class ResponseService {\n\tplatformId = inject(PLATFORM_ID);\n\tconstructor(\n\t\t@Optional() @Inject('REQUEST') private req: any,\n\t\t@Optional() @Inject('RESPONSE') private res: any\n\t) {\n\t\t// Only executes server-side\n\t}\n\n\tsetStatusCode(code) {\n\t\tif (isPlatformServer(this.platformId) && this.res?.statusCode) {\n\t\t\tthis.res.statusCode = code;\n\t\t}\n\t}\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;AAGM,IAAO,kBAAP,MAAO,iBAAe;EAE3B,YACwC,KACC,KAAQ;AADT,SAAA,MAAA;AACC,SAAA,MAAA;AAHzC,SAAA,aAAa,OAAO,WAAW;EAM/B;EAEA,cAAc,MAAI;AACjB,QAAI,iBAAiB,KAAK,UAAU,KAAK,KAAK,KAAK,YAAY;AAC9D,WAAK,IAAI,aAAa;IACvB;EACD;;;uCAbY,kBAAe,mBAGN,WAAS,CAAA,GAAA,mBACT,YAAU,CAAA,CAAA;IAAA;EAAA;;4EAJnB,kBAAe,SAAf,iBAAe,UAAA,CAAA;EAAA;;;sEAAf,iBAAe,CAAA;UAD3B;;UAIE;;UAAY;WAAO,SAAS;;UAC5B;;UAAY;WAAO,UAAU;;;",
+  "names": []
+}

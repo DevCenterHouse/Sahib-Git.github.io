@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/auth/v2/components/delete-account-otp-v2/delete-account-otp-v2.component.scss"],
+  "sourcesContent": ["div.timer {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\n\tspan {\n\t\twidth: 147px;\n\t\tmargin: auto;\n\t}\n}\n"],
+  "mappings": ";AAAA,GAAA,CAAA;AACC,WAAA;AACA,eAAA;AACA,mBAAA;;AAEA,GAAA,CALD,MAKC;AACC,SAAA;AACA,UAAA;;",
+  "names": []
+}

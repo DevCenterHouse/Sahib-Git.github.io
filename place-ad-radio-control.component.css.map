@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/place-ad-radio-control/place-ad-radio-control.component.scss"],
+  "sourcesContent": [".preference-radio {\n\tmargin-inline-end: 8px;\n\tborder: 1px solid var(--general-2);\n\tborder-radius: 4px;\n\tpadding: 10px 16px;\n\twidth: 150px;\n\tdisplay: inline-block;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,qBAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,WAAA,KAAA;AACA,SAAA;AACA,WAAA;;",
+  "names": []
+}

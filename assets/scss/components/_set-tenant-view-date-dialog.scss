@@ -1,0 +1,48 @@
+//This file contains custom css styles for set tenant view date dialog
+
+@import 'assets/scss/utils/mixins';
+
+findqo-set-tenant-view-date-dialog {
+	//styles for calendar
+	.tenant-calendar.mat-calendar {
+		font-size: 14px !important;
+
+		@include media-breakpoint-up(sm) {
+			position: sticky;
+			top: 0;
+			max-width: 364px;
+			left: 50%;
+			transform: translate(-25%, 0);
+		}
+
+		.mat-calendar-header {
+			padding: 0 !important;
+		}
+
+		.mat-calendar-controls {
+			margin: 0 0 8px 0 !important;
+		}
+	}
+
+	//styles for time slot button
+	.mat-button-toggle-group-appearance-standard {
+		border: none;
+
+		.mat-button-toggle-button {
+			border: 1px solid var(--general-2);
+			border-radius: 50rem;
+		}
+
+		.time-slot-btn.mat-button-toggle-appearance-standard {
+			&.mat-button-toggle-checked {
+				border: 1px solid var(--info-3);
+				background-color: var(--info-1) !important;
+				color: var(--info-3) !important;
+			}
+
+			&.mat-button-toggle-disabled {
+				background-color: var(--general-1) !important;
+			}
+		}
+	}
+}

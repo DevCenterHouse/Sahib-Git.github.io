@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/guards/confirm-leave.guard.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { ActivatedRouteSnapshot, UrlTree } from '@angular/router';\nimport { Observable } from 'rxjs';\n\nexport interface CanComponentDeactivate {\n\tcanDeactivate: (route?: ActivatedRouteSnapshot) => Observable<boolean> | Promise<boolean> | boolean | UrlTree;\n}\n\n@Injectable({\n\tprovidedIn: 'root',\n})\nexport class ConfirmLeaveGuard {\n\tcanDeactivate(component: CanComponentDeactivate, _route: ActivatedRouteSnapshot) {\n\t\treturn component.canDeactivate ? component.canDeactivate(_route) : true;\n\t}\n}\n"],
+  "mappings": ";;;;;;;AAWM,IAAO,oBAAP,MAAO,mBAAiB;EAC7B,cAAc,WAAmC,QAA8B;AAC9E,WAAO,UAAU,gBAAgB,UAAU,cAAc,MAAM,IAAI;EACpE;;;uCAHY,oBAAiB;IAAA;EAAA;;4EAAjB,oBAAiB,SAAjB,mBAAiB,WAAA,YAFjB,OAAM,CAAA;EAAA;;;sEAEN,mBAAiB,CAAA;UAH7B;WAAW;MACX,YAAY;KACZ;;;",
+  "names": []
+}

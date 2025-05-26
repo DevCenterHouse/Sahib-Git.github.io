@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/v2/components/cancel-subscription-dialog/cancel-subscription-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.dialog-header {\n\theight: 60px;\n\tborder-bottom: 1px solid var(--neutral-2);\n}\n\n.dialog-actions {\n\theight: 70px;\n\tborder-top: 1px solid var(--neutral-2);\n}\n\n.alert-danger {\n\tborder-radius: 4px;\n\tborder: 1px solid var(--error-2);\n}\n\n.error-icon {\n\tfont-size: 20px;\n\twidth: 20px;\n}\n\n.material-symbols-outlined {\n\tfont-variation-settings: 'FILL' 0;\n}\n\ntextarea.no-expand {\n\tresize: none !important;\n}\n\n.row.info {\n\tborder: 1px solid var(--info-2) !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA;AACA,cAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,iBAAA;AACA,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,aAAA;AACA,SAAA;;AAGD,CAAA;AACC,2BAAA,OAAA;;AAGD,QAAA,CAAA;AACC,UAAA;;AAGD,CAAA,GAAA,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/meeting-schedule/meeting-schedule.component.scss"],
+  "sourcesContent": [".container {\n\tmax-width: 628px !important;\n\tpadding-top: 32px;\n\tpadding-bottom: 32px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,aAAA;AACA,eAAA;AACA,kBAAA;;",
+  "names": []
+}

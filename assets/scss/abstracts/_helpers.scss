@@ -1,0 +1,108 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----
+
+// TODO: Create a separate file for normalize/reset styles.
+a {
+	text-decoration: none;
+}
+
+/**
+* App brand name
+*/
+.brand-name {
+	font-size: 32px;
+	font-weight: 700;
+	text-decoration: none;
+	color: var(--general-5);
+
+	&:hover {
+		color: inherit;
+	}
+}
+
+.border-top {
+	border-top: 1px solid var(--neutral-2) !important;
+}
+
+.border-bottom {
+	border-bottom: 1px solid var(--neutral-2) !important;
+}
+
+.border-left {
+	border-left: 1px solid var(--neutral-2) !important;
+}
+
+.border-right {
+	border-right: 1px solid var(--neutral-2) !important;
+}
+
+// vertically aligned all elements inside of its container
+.v-center {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+// Reset the button styles
+button.reset-button {
+	background-color: transparent;
+	border-width: 0;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	padding: 0;
+}
+
+// Remove mat-form-field subscript
+mat-form-field.no-subscript {
+	// Remove the extra padding for subscript text
+	.mat-mdc-form-field-wrapper {
+		padding-bottom: 0;
+	}
+	// Remove completely the subscript wrapper
+	.mat-mdc-form-field-subscript-wrapper {
+		display: none;
+	}
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+// Only show scroll horizontally
+.overflow-x-auto {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+// Hide scrollbar
+.hide-scrollbar {
+	overflow: scroll;
+
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+
+	&::-webkit-scrollbar {
+		display: none; /* Safari and Chrome */
+	}
+}
+
+/**
+* Image skeleton Loader
+*/
+img.image-skeleton-loader {
+	background: linear-gradient(90deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+	background-size: 200% 100%;
+	border-radius: 0.375rem;
+	animation: 2s skeleton-loader-shine linear infinite;
+}
+
+@keyframes skeleton-loader-shine {
+	to {
+		background-position-x: -200%;
+	}
+}
+// end - Image skeleton loader

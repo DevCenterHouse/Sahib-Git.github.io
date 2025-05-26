@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/leads/details/lead-details.component.scss"],
+  "sourcesContent": [".p-body {\n\tpadding: 24px 16px !important;\n\n\t.back-button {\n\t\tbackground: #eaeaea !important;\n\t\tbox-shadow: none;\n\t}\n}\n\n.container {\n\tmax-width: 1080px !important;\n\tpadding: 8px 12px;\n\n\t.col-6,\n\t.col:not(.p-0) {\n\t\tpadding: 8px 16px !important;\n\t}\n}\n\n.hot-lead {\n\tborder: 1px solid var(--alert-3);\n\tborder-radius: 4px;\n\tpadding: 8px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,WAAA,KAAA;;AAEA,CAHD,OAGC,CAAA;AACC,cAAA;AACA,cAAA;;AAIF,CAAA;AACC,aAAA;AACA,WAAA,IAAA;;AAEA,CAJD,UAIC,CAAA;AAAA,CAJD,UAIC,CAAA,GAAA,KAAA,CAAA;AAEC,WAAA,IAAA;;AAIF,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,WAAA;;",
+  "names": []
+}

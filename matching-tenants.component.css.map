@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/ad-detail/components/matching-tenants/matching-tenants.component.scss"],
+  "sourcesContent": [".tenant-list {\n\tbackground-color: rgba(255, 90, 184, 0.08);\n\tborder: 1px solid var(--neutral-2);\n}\n\n.tenant-img {\n\tborder: 2px solid var(--basic-1);\n\tmargin-inline-end: -10px;\n\tborder-radius: 100px;\n}\n\n.tenant-count {\n\twidth: 36px;\n\theight: 36px;\n\tborder-radius: 100px;\n\tline-height: 36px;\n\ttext-align: center;\n}\n\n.tenant-list {\n\tbackground-color: rgba(255, 90, 184, 0.08);\n\tpadding-top: 10px;\n\tpadding-bottom: 10px;\n\tborder: 1px soild var(--general-1);\n}\n\n.on-hunt-badge {\n\tposition: absolute;\n\tbottom: 0;\n}\n\n.avatar {\n\twidth: 36px;\n\theight: 36px;\n\tborder-radius: 50%;\n}\n\n.agent-img {\n\tborder-radius: 50%;\n\tobject-fit: cover;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,oBAAA,KAAA,GAAA,EAAA,EAAA,EAAA,GAAA,EAAA;AACA,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,qBAAA;AACA,iBAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;AACA,eAAA;AACA,cAAA;;AAGD,CAnBA;AAoBC,oBAAA,KAAA,GAAA,EAAA,EAAA,EAAA,GAAA,EAAA;AACA,eAAA;AACA,kBAAA;AACA,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,YAAA;AACA,UAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;;AAGD,CAAA;AACC,iBAAA;AACA,cAAA;;",
+  "names": []
+}

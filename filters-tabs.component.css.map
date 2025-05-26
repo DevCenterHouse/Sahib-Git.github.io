@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/home/components/home-banner-v2/filters-tabs/filters-tabs.component.scss"],
+  "sourcesContent": ["mat-form-field {\n\tbackground: var(--basic-1);\n}\n\n.container {\n\tmax-width: 500px !important;\n}\n\n.tab-button {\n\tbackground-color: transparent !important;\n\tborder-bottom: 2px solid transparent;\n\tcolor: #ffffffc3 !important;\n\theight: 48px !important;\n\tborder-radius: 0 !important;\n}\n\n.tab-button.active {\n\tborder-bottom: 2px solid var(--basic-1);\n\tcolor: var(--basic-1) !important;\n}\n"],
+  "mappings": ";AAAA;AACC,cAAA,IAAA;;AAGD,CAAA;AACC,aAAA;;AAGD,CAAA;AACC,oBAAA;AACA,iBAAA,IAAA,MAAA;AACA,SAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA;AACA,UAAA;AACA,iBAAA;;AAGD,CARA,UAQA,CAAA;AACC,iBAAA,IAAA,MAAA,IAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}

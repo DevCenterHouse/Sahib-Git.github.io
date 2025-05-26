@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/ad-detail/components/activities/activities.component.scss"],
+  "sourcesContent": [".rounded-8px {\n\tborder-radius: 8px !important;\n}\n\n.col-auto {\n\tmin-width: 110px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,iBAAA;;AAGD,CAAA;AACC,aAAA;;",
+  "names": []
+}

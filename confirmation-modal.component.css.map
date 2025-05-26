@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/rental-estimate-tool/components/rental-results/confirmation-modal/confirmation-modal.component.scss"],
+  "sourcesContent": [".dialog-container {\n\theight: 100%;\n\tpadding: 16px 16px 24px 16px;\n\tjustify-content: end;\n}\n.close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n.dialog-header {\n\theight: 60px;\n}\n.button {\n\theight: 40px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;AACA,WAAA,KAAA,KAAA,KAAA;AACA,mBAAA;;AAED,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAED,CAAA;AACC,UAAA;;AAED,CAAA;AACC,UAAA;;",
+  "names": []
+}

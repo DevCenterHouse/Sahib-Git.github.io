@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/ad-detail/component/ad-desktop-photo/ad-desktop-photo.component.scss"],
+  "sourcesContent": [".image-1 {\n\twidth: 100%;\n\tobject-fit: contain;\n}\n\n.small-photos {\n\twidth: 325px;\n\theight: 400px;\n}\n\n.other-images {\n\twidth: 100%;\n\tobject-fit: contain;\n\theight: 192px;\n}\n\n.image-container {\n\theight: 400px;\n}\n\n.sub-image {\n\theight: 192px;\n}\n\n.gallery-img {\n\tfilter: brightness(0.65);\n}\n\n.centered {\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n}\n\n.bottom-left {\n\tbottom: 5%;\n\tleft: 5%;\n\ttransform: none;\n}\n\n.border-verified {\n\tborder: 1px solid var(--success-3);\n}\n\n.icon-14px {\n\tfont-size: 14px;\n\twidth: 14px;\n\theight: 14px;\n}\n\n.h-25px {\n\theight: 25px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,cAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,SAAA;AACA,cAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,UAAA,WAAA;;AAGD,CAAA;AACC,OAAA;AACA,QAAA;AACA,aAAA,UAAA,IAAA,EAAA;;AAGD,CAAA;AACC,UAAA;AACA,QAAA;AACA,aAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,aAAA;AACA,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;;",
+  "names": []
+}

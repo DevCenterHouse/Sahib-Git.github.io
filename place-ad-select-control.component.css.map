@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/place-ad-select-control/place-ad-select-control.component.scss"],
+  "sourcesContent": [".mat-mdc-option.mat-mdc-option-active.mdc-list-item:first-of-type {\n\tbackground-color: transparent !important;\n}\n"],
+  "mappings": ";AAAA,CAAA,cAAA,CAAA,qBAAA,CAAA,aAAA;AACC,oBAAA;;",
+  "names": []
+}

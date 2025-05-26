@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/header/components/sticky-promotion-header/sticky-promotion-header.component.scss"],
+  "sourcesContent": [".home-sticky {\n\tmin-height: 50px;\n}\n\n.h-32px {\n\theight: 32px !important;\n}\n\n@media (max-width: 768px) {\n\t.home-sticky-ad {\n\t\tpadding: 10px 0;\n\t}\n\t.event-banner {\n\t\tpadding: 10px 5px;\n\t}\n\t.heading-4-regular {\n\t\tfont-size: 14px; /* Adjust font size for smaller devices */\n\t\tmargin: 0;\n\t}\n\t.fw-500.fs-10px {\n\t\tfont-size: 12px; /* Increase text size for smaller screens */\n\t}\n\t.col-auto {\n\t\tflex: 0 0 auto; /* Ensure columns adjust properly on smaller screens */\n\t}\n\t.fs-12px {\n\t\tfont-size: 12px; /* Ensure button text size is legible */\n\t}\n\t.fs-14px {\n\t\tfont-size: 14px; /* Default font size for larger screens */\n\t}\n\t.h-32px {\n\t\theight: 32px; /* Button height remains consistent */\n\t}\n}\n\n@media (max-width: 768px) {\n\t.d-md-none {\n\t\tdisplay: block !important;\n\t}\n\t.d-none {\n\t\tdisplay: none !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,cAAA;;AAGD,CAAA;AACC,UAAA;;AAGD,OAAA,CAAA,SAAA,EAAA;AACC,GAAA;AACC,aAAA,KAAA;;AAED,GAAA;AACC,aAAA,KAAA;;AAED,GAAA;AACC,eAAA;AACA,YAAA;;AAED,GAAA,MAAA,CAAA;AACC,eAAA;;AAED,GAAA;AACC,UAAA,EAAA,EAAA;;AAED,GAAA;AACC,eAAA;;AAED,GAAA;AACC,eAAA;;AAED,GA3BD;AA4BE,YAAA;;;AAIF,OAAA,CAAA,SAAA,EAAA;AACC,GAAA;AACC,aAAA;;AAED,GAAA;AACC,aAAA;;;",
+  "names": []
+}

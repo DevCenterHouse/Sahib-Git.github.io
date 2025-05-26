@@ -1,0 +1,19 @@
+findqo-my-ad-delete-dialog {
+	.delete-dialog-btn.mat-mdc-unelevated-button:not(:disabled) {
+		background: var(--error-3) !important;
+	}
+}
+
+findqo-my-ad-occupied-dialog {
+	.close-dialog-btn.mat-mdc-outlined-button:not(:disabled) {
+		border: 1px solid var(--general-2) !important;
+		color: var(--general-4) !important;
+	}
+}
+
+findqo-my-ad-cancel-edit-dialog {
+	.close-dialog-btn.mat-mdc-outlined-button:not(:disabled) {
+		border: 1px solid var(--general-2) !important;
+		color: var(--general-4) !important;
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/subscription-button/subscription-button.component.ts"],
+  "sourcesContent": ["\n\t\tsub.line-through {\n\t\t\ttext-decoration: line-through;\n\t\t\tfont-size: 10px;\n\t\t\tline-height: 14px;\n\t\t\tcolor: var(--general-4);\n\t\t}\n\n\t\tsup {\n\t\t\ttop: -0.7em;\n\n\t\t\t&.vat-description {\n\t\t\t\ttop: -1.5em;\n\t\t\t}\n\t\t}\n\n\t\tbutton.btn-subscribe {\n\t\t\theight: 40px;\n\t\t}\n\t"],
+  "mappings": ";AACE,GAAA,CAAA;AACC,mBAAA;AACA,aAAA;AACA,eAAA;AACA,SAAA,IAAA;;AAGD;AACC,OAAA;;AAEA,GAAA,CAAA;AACC,OAAA;;AAIF,MAAA,CAAA;AACC,UAAA;;",
+  "names": []
+}

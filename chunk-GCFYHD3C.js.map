@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/ads/ad-ber/ad-ber.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { SharedModule } from '@shared/shared.module';\nimport { AdBerComponent } from './ad-ber.component';\n\n@NgModule({\n\tdeclarations: [AdBerComponent],\n\timports: [SharedModule],\n\texports: [AdBerComponent],\n})\nexport class AdBerModule {}\n"],
+  "mappings": ";;;;;;;;;;;;;;AASM,IAAO,cAAP,MAAO,aAAW;;;uCAAX,cAAW;IAAA;EAAA;;wEAAX,aAAW,CAAA;EAAA;;4EAHb,YAAY,EAAA,CAAA;EAAA;;;sEAGV,aAAW,CAAA;UALvB;WAAS;MACT,cAAc,CAAC,cAAc;MAC7B,SAAS,CAAC,YAAY;MACtB,SAAS,CAAC,cAAc;KACxB;;;",
+  "names": []
+}

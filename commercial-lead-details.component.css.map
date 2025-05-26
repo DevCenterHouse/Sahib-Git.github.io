@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/pages/leads/commercial-lead-details/commercial-lead-details.component.ts"],
+  "sourcesContent": ["\n\t\t.container {\n\t\t\tmax-width: 1080px !important;\n\t\t}\n\t\t.hot-lead {\n\t\t\tborder: 1px solid var(--alert-3);\n\t\t\tborder-radius: 4px;\n\t\t\tpadding: 8px;\n\t\t}\n\t"],
+  "mappings": ";AACE,CAAA;AACC,aAAA;;AAED,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,WAAA;;",
+  "names": []
+}

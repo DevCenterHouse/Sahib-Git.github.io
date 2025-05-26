@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/v2/components/edit-profile-info-dialog/edit-profile-info-dialog.component.scss"],
+  "sourcesContent": [".dialog-header {\n\theight: 60px;\n}\n\n.close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;",
+  "names": []
+}

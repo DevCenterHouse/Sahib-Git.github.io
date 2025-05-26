@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-hub/components/ad-overview/ad-overview.component.scss"],
+  "sourcesContent": [".renew_ad {\n\tbackground-color: var(--prim-2) !important;\n\tcolor: var(--basic-1) !important;\n\theight: 27px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,oBAAA,IAAA;AACA,SAAA,IAAA;AACA,UAAA;;",
+  "names": []
+}

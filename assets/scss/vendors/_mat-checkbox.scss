@@ -1,0 +1,36 @@
+// ----------------------------------------------------------------------------------
+// This file contains all styles related to the mat-checkbox
+// ----------------------------------------------------------------------------------
+
+// Make the position of the checkbox target box and the checkbox input
+.mat-mdc-checkbox .mdc-checkbox .mdc-checkbox__native-control {
+	top: 50% !important;
+	left: 50% !important;
+	height: 48px;
+	width: 48px;
+	transform: translate(-50%, -50%);
+}
+
+// Remove the ripple effect
+.mat-mdc-checkbox-ripple,
+.mdc-checkbox__ripple {
+	display: none;
+}
+
+// Remove the `position` property to make it center.
+// The checkbox is not center aligned, after removing the default spacing.
+.mdc-checkbox__background {
+	position: unset !important;
+}
+
+// Remove default spacing to match the design
+.mat-mdc-checkbox .mdc-checkbox {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+// To remove weird spaces within the blue-fill-box
+// Only use this on checkbox without a label
+.mat-mdc-checkbox.no-label {
+	display: flex;
+}

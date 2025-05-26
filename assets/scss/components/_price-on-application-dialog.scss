@@ -1,0 +1,12 @@
+@import 'assets/scss/utils/mixins';
+
+.price-on-application-dialog {
+	width: 100%;
+	max-width: unset !important;
+	margin: 0 16px;
+
+	@include media-breakpoint-up(sm) {
+		max-width: 500px !important;
+		width: 100%;
+	}
+}

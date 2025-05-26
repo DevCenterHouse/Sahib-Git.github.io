@@ -1,0 +1,57 @@
+@import 'assets/scss/utils/mixins';
+
+findqo-header-v2 {
+	findqo-button {
+		@extend .text-small-14px-regular;
+	}
+}
+
+findqo-header-account-menu {
+	button.menu-trigger {
+		mat-icon {
+			width: auto !important;
+
+			svg {
+				width: 35px !important;
+				height: 35px !important;
+			}
+		}
+	}
+}
+
+// Header sidenav
+ngb-offcanvas-panel.header-sidenav {
+	width: 100% !important;
+	max-width: 400px;
+	overflow: scroll;
+}
+
+// Mat menue header to remove the padding and give width auto
+
+.place-ad-header-select.mat-mdc-icon-button {
+	&:not(:disabled) {
+		width: auto !important;
+		height: 100%;
+		padding: 0;
+	}
+}
+
+// To make the mat menu item take the full width of the menu container
+.place-ad-menu-item .mat-mdc-menu-item-text {
+	width: 100% !important;
+}
+
+.place-ad-header-menu-dropdown.mat-mdc-menu-panel.mat-mdc-menu-panel {
+	max-width: 325px !important;
+	width: 325px !important;
+	padding-bottom: 16px !important;
+}
+
+.h-32px {
+	height: 32px !important;
+}
+
+.home-header-menu-dropdown.mat-mdc-menu-panel.mat-mdc-menu-panel {
+	max-width: 290px !important;
+	width: 290px !important;
+}

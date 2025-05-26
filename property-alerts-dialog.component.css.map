@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/property-alerts/components/property-alerts-dialog/property-alerts-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.dialog-header {\n\theight: 60px;\n\tborder-bottom: 1px solid var(--neutral-2);\n}\n\n.dialog-actions {\n\theight: 70px;\n\tborder-top: 1px solid var(--neutral-2);\n}\n\n.alert-danger {\n\tborder-radius: 4px;\n\tborder: 1px solid var(--error-2);\n}\n\n.cancel-btn {\n\tcolor: var(--general-4) !important;\n\tborder: 1px solid var(--general-4) !important;\n\theight: 40px;\n\t--mat-mdc-button-persistent-ripple-color: transparent !important;\n\tborder-radius: 4px;\n\tbackground: white;\n}\n\n.cancel-btn {\n\t@media (max-width: 576px) {\n\t\theight: 35px !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA;AACA,cAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,iBAAA;AACA,UAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,SAAA,IAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,UAAA;AACA,4CAAA;AACA,iBAAA;AACA,cAAA;;AAIA,OAAA,CAAA,SAAA,EAAA;AADD,GATA;AAWE,YAAA;;;",
+  "names": []
+}

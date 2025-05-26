@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/general/filters/filters-control/filters-min-max/filters-min-max.component.scss"],
+  "sourcesContent": ["div.min-max {\n\tdisplay: grid;\n\tgrid-template-columns: repeat(auto-fit, minmax(0, 1fr));\n\tgap: 8px;\n}\n"],
+  "mappings": ";AAAA,GAAA,CAAA;AACC,WAAA;AACA,yBAAA,OAAA,QAAA,EAAA,OAAA,CAAA,EAAA;AACA,OAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/home/components/accept-invite-dialog/accept-invite-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.dialog-header {\n\theight: 60px;\n\tborder-bottom: 1px solid var(--neutral-2);\n}\n\n.dialog-actions {\n\theight: 70px;\n\tborder-top: 1px solid var(--neutral-2);\n}\n\n.mt-22px {\n\tmargin-top: 22px;\n}\n\n.business-logo {\n\twidth: 150px;\n\theight: 109px;\n\tborder-radius: 10px;\n\tobject-fit: cover;\n}\n\n.decoration {\n\tborder-bottom: 1px solid var(--prim-1);\n}\n\n.email-container {\n\twidth: 30px;\n\theight: 30px;\n\tborder-radius: 50%;\n\tbackground-color: rgba(255, 92, 184, 0.1);\n}\n\n.email-icon {\n\twidth: 20px;\n\theight: 20px;\n\tfont-size: 20px;\n}\n\n.py-32px {\n\tpadding-top: 32px;\n\tpadding-bottom: 32px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA;AACA,cAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,cAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;AACA,cAAA;;AAGD,CAAA;AACC,iBAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,iBAAA;AACA,oBAAA,KAAA,GAAA,EAAA,EAAA,EAAA,GAAA,EAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,aAAA;;AAGD,CAAA;AACC,eAAA;AACA,kBAAA;;",
+  "names": []
+}

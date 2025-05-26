@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/components/subscription-offers/subscription-offers.component.ts"],
+  "sourcesContent": ["\n\t\tmat-icon {\n\t\t\tjustify-content: center;\n\t\t\twidth: 18px;\n\t\t\theight: 18px;\n\t\t\tfont-size: 15px;\n\t\t\toverflow: visible;\n\t\t}\n\t"],
+  "mappings": ";AACE;AACC,mBAAA;AACA,SAAA;AACA,UAAA;AACA,aAAA;AACA,YAAA;;",
+  "names": []
+}

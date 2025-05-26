@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/agent-landing/components/signup-banner/signup-banner.component.scss"],
+  "sourcesContent": [".main {\n\tbackground-color: rgba(238, 0, 136, 0.025);\n\tbackground-image: url('../../../../../assets/images/banners/bottom-left-shape.png'), url('../../../../../assets/images/banners/top-right-shape.png');\n\tbackground-position:\n\t\tbottom left,\n\t\ttop right;\n\tbackground-repeat: no-repeat, no-repeat;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,oBAAA,KAAA,GAAA,EAAA,CAAA,EAAA,GAAA,EAAA;AACA,oBAAA,uFAAA,EAAA;AACA,uBACC,OAAA,IAAA,EAAA,IAAA;AAED,qBAAA,SAAA,EAAA;;",
+  "names": []
+}

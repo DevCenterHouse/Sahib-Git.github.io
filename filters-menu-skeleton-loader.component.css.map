@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/general/filters/components/filters-menu-skeleton-loader/filters-menu-skeleton-loader.component.scss"],
+  "sourcesContent": [".minmax {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: space-between;\n\n\tngx-skeleton-loader {\n\t\twidth: 48%;\n\t\theight: 30px;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,WAAA;AACA,eAAA;AACA,mBAAA;;AAEA,CALD,OAKC;AACC,SAAA;AACA,UAAA;;",
+  "names": []
+}

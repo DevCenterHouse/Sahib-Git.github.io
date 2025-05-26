@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/footer/components/bottomsheet/bottomsheet.component.scss"],
+  "sourcesContent": [".-mx-3 {\n\tmargin-left: -16px !important;\n\tmargin-right: -16px !important;\n}\n\nbutton.option-button {\n\theight: 55px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,eAAA;AACA,gBAAA;;AAGD,MAAA,CAAA;AACC,UAAA;;",
+  "names": []
+}

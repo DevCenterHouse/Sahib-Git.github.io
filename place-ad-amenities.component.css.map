@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/place-ad/components/place-ad-amenities/place-ad-amenities.component.scss"],
+  "sourcesContent": [".checkbox-item {\n\tborder: 1px solid var(--general-3);\n\theight: 50px;\n\tborder-radius: 4px;\n\ttext-decoration: none;\n\tcursor: pointer;\n}\n\n.checkbox-list:nth-child(odd) {\n\tpadding-inline-end: 16px;\n}\n\n.checked-extras {\n\tborder: 1px solid var(--info-3);\n\tbackground-color: var(--info-1);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,UAAA;AACA,iBAAA;AACA,mBAAA;AACA,UAAA;;AAGD,CAAA,aAAA;AACC,sBAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,oBAAA,IAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/components/delete-business-dialog/delete-business-dialog.component.scss"],
+  "sourcesContent": [".dialog-header {\n\theight: 60px !important;\n}\n\n.close-btn {\n\twidth: 40px !important;\n\theight: 40px !important;\n}\n\n.icon-container {\n\twidth: 30px !important;\n\theight: 30px !important;\n\tbackground-color: rgba(255, 90, 184, 0.1);\n\tborder-radius: 50% !important;\n\tdisplay: inline-flex;\n\tjustify-content: center;\n\talign-items: center;\n\tcolor: var(--prim-2) !important;\n\n\tmat-icon {\n\t\tfont-size: 18px !important;\n\t\twidth: 18px !important;\n\t}\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,UAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;;AAGD,CAAA;AACC,SAAA;AACA,UAAA;AACA,oBAAA,KAAA,GAAA,EAAA,EAAA,EAAA,GAAA,EAAA;AACA,iBAAA;AACA,WAAA;AACA,mBAAA;AACA,eAAA;AACA,SAAA,IAAA;;AAEA,CAVD,eAUC;AACC,aAAA;AACA,SAAA;;",
+  "names": []
+}

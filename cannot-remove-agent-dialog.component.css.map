@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/feature/my-profile/v2/components/cannot-remove-agent-dialog/cannot-remove-agent-dialog.component.scss"],
+  "sourcesContent": [".close-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground: var(--general-1);\n\tborder: none;\n}\n\n.dialog-header {\n\theight: 60px;\n\tborder-bottom: 1px solid var(--neutral-2);\n}\n\n.dialog-actions {\n\theight: 70px;\n\tborder-top: 1px solid var(--neutral-2);\n}\n\n.error-msg {\n\tborder: 1px solid var(--error-3);\n\tborder-radius: 4px;\n\theight: 40px;\n}\n\n.alert-icon {\n\tdisplay: inline-block !important;\n\twidth: 20px;\n\theight: 20px;\n\tfont-size: 20px;\n\tvertical-align: sub;\n\toverflow: unset;\n}\n\n.go-ads {\n\tborder: 1px solid var(--general-4) !important;\n\tcolor: unset !important;\n}\n\n.rounded-10px {\n\tborder-radius: 10px !important;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACC,SAAA;AACA,UAAA;AACA,cAAA,IAAA;AACA,UAAA;;AAGD,CAAA;AACC,UAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA;AACA,cAAA,IAAA,MAAA,IAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,UAAA;;AAGD,CAAA;AACC,WAAA;AACA,SAAA;AACA,UAAA;AACA,aAAA;AACA,kBAAA;AACA,YAAA;;AAGD,CAAA;AACC,UAAA,IAAA,MAAA,IAAA;AACA,SAAA;;AAGD,CAAA;AACC,iBAAA;;",
+  "names": []
+}

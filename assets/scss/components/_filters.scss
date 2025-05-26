@@ -1,0 +1,621 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Filters component.
+// -----------------------------------------------------------------------------
+
+@import 'assets/scss/utils/mixins';
+
+$filters-menu-header-height: 60px;
+$filters-menu-footer-height: 72px;
+$filters-selection-footer-height: 126px;
+$filters-selection-fixed-element-z-index: 99;
+
+findqo-filters-mobile {
+	div.filters-scroll {
+		// Scrollbar
+		overflow-x: auto;
+		overflow-y: hidden;
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		// end - scrollbar
+
+		findqo-button.aisle {
+			&.active {
+				.c-btn {
+					background: var(--info-1);
+					color: var(--info-3) !important;
+					border: 1px solid var(--info-3) !important;
+				}
+			}
+
+			.c-btn {
+				padding: 0 5px;
+				color: var(--general-4) !important;
+				border: 1px solid var(--general-2) !important;
+				border-radius: 100px;
+
+				&:hover {
+					background: var(--info-1);
+					color: var(--info-3) !important;
+					border: 1px solid var(--info-3) !important;
+				}
+			}
+		}
+	}
+
+	findqo-button.menu,
+	findqo-button.quick-filter {
+		.c-btn {
+			padding: 0 16px;
+			border-radius: 100px;
+			width: 10px;
+		}
+	}
+
+	findqo-button.quick-filter {
+		.c-btn {
+			color: var(--general-4) !important;
+			border: 1px solid var(--general-2) !important;
+
+			mat-icon {
+				height: 11px;
+				width: 11px;
+				margin-left: 16px !important;
+				margin-right: 0 !important;
+			}
+		}
+	}
+}
+
+ngb-offcanvas-panel.filters,
+.cdk-overlay-pane.filters {
+	&--base-selection-filters {
+		// It should be always below of the header nav
+		height: calc(100% - 60px) !important;
+	}
+
+	&--base-min-max-filters {
+		height: auto !important;
+	}
+
+	&--filters-menu {
+		height: 100vh !important;
+
+		cdk-virtual-scroll-viewport {
+			height: 80vh;
+		}
+	}
+
+	mat-bottom-sheet-container {
+		overflow: hidden;
+		max-height: 100vh !important;
+		padding: 0;
+	}
+}
+
+findqo-filters-menu {
+	display: block;
+	height: 100%;
+
+	& > div.container-fluid {
+		height: 100%;
+	}
+
+	div.option {
+		&--header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: $filters-menu-header-height;
+			padding: 0 16px;
+		}
+	}
+
+	div.spacer {
+		padding-top: $filters-menu-header-height;
+		padding-bottom: $filters-menu-footer-height;
+	}
+}
+
+findqo-base-filters {
+	header {
+		position: sticky;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: var(--basic-1);
+		z-index: $filters-selection-fixed-element-z-index;
+	}
+
+	div.selection {
+		padding-bottom: $filters-selection-footer-height;
+	}
+}
+
+findqo-filters-menu,
+findqo-base-filters,
+findqo-filters-sort,
+div.mat-mdc-select-panel.filters-dropdown-selection,
+div.filters-cdk-dropdown {
+	// TODO: Check if the height will be the default style for all buttons
+	findqo-button {
+		display: block;
+		height: 40px;
+
+		&:not(.c-btn--icon) {
+			line-height: 40px;
+		}
+
+		&.back {
+			width: 18px;
+			height: 18px;
+		}
+
+		&.search-near-me {
+			height: 100%;
+			margin-top: 8px;
+			line-height: unset;
+
+			.c-btn {
+				height: auto;
+				padding: 0;
+			}
+		}
+	}
+
+	findqo-button.option {
+		&--checkbox .c-btn,
+		&--filter .c-btn {
+			.mdc-button__label {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+			}
+
+			&:disabled {
+				background: var(--basic-1) !important;
+				opacity: 0.5;
+			}
+		}
+
+		.c-btn {
+			@extend .text-small-14px-regular;
+
+			justify-content: space-between;
+			padding: 0;
+			color: var(--general-5) !important;
+		}
+	}
+
+	div.option,
+	mat-option {
+		@extend .text-small-14px-regular;
+
+		padding: 8px 16px;
+		border-bottom: 1px solid var(--general-1);
+		color: var(--general-5);
+
+		&--text {
+			background: var(--general-1);
+			color: var(--general-3);
+		}
+
+		&--search {
+			position: sticky;
+			top: 0;
+			width: 100%;
+			background: var(--basic-1);
+			z-index: $filters-selection-fixed-element-z-index;
+		}
+
+		div.search-near-me {
+			.mdc-form-field > label {
+				@extend .fg-general-4;
+			}
+
+			mat-button-toggle-group {
+				mat-button-toggle {
+					border: var(--general-2);
+					font-size: 14px;
+					color: var(--prim-2);
+
+					&.mat-button-toggle-checked {
+						background: var(--prim-2);
+						color: var(--basic-1);
+					}
+
+					&.mat-button-toggle-disabled {
+						background: var(--general-1);
+						color: var(--general-2);
+					}
+
+					button {
+						height: 30px;
+					}
+				}
+
+				.mat-button-toggle-appearance-standard,
+				.mat-button-toggle-label-content {
+					line-height: 1;
+				}
+			}
+		}
+	}
+
+	// Action buttons
+	div.actions {
+		position: sticky;
+		bottom: 0;
+		width: 100%;
+		padding: 16px;
+		margin-top: auto;
+		z-index: $filters-selection-fixed-element-z-index;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+
+		background: var(--basic-1);
+		/* Modals & Offcanvas/Shadow */
+		box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 1);
+
+		findqo-button {
+			&.clear {
+				flex-grow: 1;
+			}
+
+			&.submit {
+				flex-grow: 2;
+			}
+		}
+	}
+
+	// Empty result
+	div.no-results {
+		padding: 16px;
+		text-align: center;
+
+		span {
+			@extend .text-small-14px-regular;
+			color: var(--general-5) !important;
+		}
+	}
+}
+
+findqo-filters-button-selection {
+	.mat-mdc-selection-list {
+		display: flex !important;
+		flex-wrap: wrap;
+		column-gap: 8px;
+		row-gap: 8px;
+		padding: 0;
+
+		.mat-mdc-list-item {
+			display: inline-block;
+			width: auto;
+			height: 35px !important;
+			padding: 0;
+			border-radius: 100px;
+
+			findqo-button {
+				display: block;
+				height: 100%;
+
+				.c-btn {
+					@extend .text-small-14px-regular;
+
+					padding: 0 16px;
+					background: var(--basic-1);
+					color: var(--general-4) !important;
+					border: 1px solid var(--general-2) !important;
+					border-radius: 100px;
+				}
+			}
+
+			.mdc-list-item__end {
+				display: none;
+			}
+
+			&.active {
+				findqo-button {
+					.c-btn {
+						border: 1px solid var(--info-2) !important;
+						background: var(--info-1) !important;
+						color: var(--info-3) !important;
+					}
+				}
+			}
+		}
+
+		// TODO: Check if we still need this class.
+		findqo-button.view {
+		}
+	}
+}
+
+/**
+* Filters CDK dropdown
+*/
+div.filters-cdk-dropdown {
+	width: 100%;
+	height: 100%;
+	max-height: 600px;
+
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+	border: 1px solid var(--general-2);
+	background: var(--basic-1);
+}
+
+findqo-filters-dropdown-selection {
+	// TODO: Check if this should be in global styles
+	findqo-button.dropdown {
+		.mat-icon {
+			font-size: 24px;
+			margin: 0 !important;
+			color: var(--general-3);
+		}
+
+		.c-btn {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			padding-right: 7px;
+
+			border: 1px solid var(--general-2) !important;
+			color: var(--general-5) !important;
+
+			.mdc-button__label {
+				overflow: hidden;
+			}
+
+			&:disabled {
+				background: var(--general-1) !important;
+
+				.mat-icon {
+					color: var(--neutral-3) !important;
+				}
+			}
+		}
+	}
+}
+
+/**
+*  Desktop Filters Sidepanel
+* 
+* NOTE: `findqo-filters` added here is only for imitate the container for skeleton loader.
+*/
+findqo-filters,
+findqo-filters-desktop {
+	div.filters-form {
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	div.option {
+		padding: 16px;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid var(--general-1);
+		}
+	}
+}
+// end - Desktop Filters Sidepanel
+
+findqo-filters {
+	findqo-button.sort .c-btn {
+		padding: 0;
+	}
+}
+
+// Filters dropdown selection
+findqo-filters-dropdown-selection {
+	mat-form-field.disabled {
+		background: var(--general-1);
+		border-color: var(--neutral-2) !important;
+		opacity: 0.5;
+		pointer-events: none;
+
+		.mat-icon {
+			color: var(--neutral-2) !important;
+		}
+	}
+}
+
+div.mat-mdc-select-panel.filters-dropdown-selection {
+	padding-top: 0 !important;
+	max-height: 600px;
+	background: var(--basic-1);
+
+	span.mat-mdc-optgroup-label {
+		min-height: unset !important;
+		padding: 8px 16px !important;
+		background: var(--general-1);
+		color: var(--general-3);
+		text-transform: uppercase;
+		font-size: 0.875rem !important;
+		font-weight: 400 !important;
+	}
+
+	mat-option {
+		background: var(--basic-1) !important;
+		padding: 8px 16px !important;
+	}
+}
+// end - Filters dropdown selection
+
+.location-filter,
+findqo-location-search-dialog {
+	.mat-mdc-standard-chip:not(.mdc-evolution-chip--disabled) {
+		background-color: var(--info-1) !important;
+		border-color: var(--info-2) !important;
+		border-radius: 4px !important;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	.mdc-evolution-chip-set .mdc-evolution-chip-set__chips {
+		margin-left: 0px !important;
+	}
+
+	.mat-mdc-option.mdc-list-item--disabled {
+		background-color: var(--general-1) !important;
+	}
+
+	.mat-mdc-standard-chip.mdc-evolution-chip--with-trailing-action .mdc-evolution-chip__action--primary {
+		max-width: 310px !important;
+
+		@include media-breakpoint-up(md) {
+			max-width: 440px !important;
+		}
+	}
+
+	.mdc-evolution-chip-set .mdc-evolution-chip {
+		margin: 0 !important;
+	}
+
+	.mat-mdc-chip.mat-mdc-standard-chip {
+		--mdc-chip-container-height: 40px !important
+	;
+	}
+
+	mat-chip-row {
+		overflow: hidden;
+		max-width: 490px !important;
+		text-overflow: ellipsis;
+	}
+
+	.mat-mdc-standard-chip:not(.mdc-evolution-chip--disabled) .mdc-evolution-chip__text-label {
+		overflow: hidden;
+		color: var(--info-3) !important;
+		max-width: 300px !important;
+
+		@include media-breakpoint-up(md) {
+			max-width: 440px !important;
+		}
+	}
+
+	.mdc-evolution-chip-set__chips {
+		gap: 8px !important;
+	}
+}
+
+findqo-location-search {
+	.mat-mdc-form-field-flex {
+		width: 100%;
+		height: 40px !important;
+
+		@include media-breakpoint-up(md) {
+			min-width: 356px;
+		}
+	}
+
+	.h-48px {
+		.mat-mdc-form-field-flex {
+			height: 48px !important;
+
+			@include media-breakpoint-up(md) {
+				height: 40px !important;
+			}
+		}
+
+		.mat-mdc-button {
+			--mdc-text-button-container-height: 36px !important;
+
+			@include media-breakpoint-up(md) {
+				--mdc-text-button-container-height: 40px !important;
+			}
+		}
+	}
+
+	.mat-mdc-form-field-flex {
+		@include media-breakpoint-up(md) {
+			height: 40px !important;
+			width: 340px !important;
+		}
+	}
+
+	.desktop-filters {
+		mat-form-field.target-field {
+			width: 340px !important;
+		}
+	}
+
+	.mat-mdc-button {
+		@include media-breakpoint-up(md) {
+			--mdc-text-button-container-height: 40px !important;
+			min-width: 340px !important;
+		}
+
+		.mdc-button__label {
+			display: flex !important;
+			justify-content: space-between !important;
+			width: 100% !important;
+		}
+	}
+
+	.mat-mdc-form-field-infix {
+		display: flex !important;
+	}
+
+	input.mat-mdc-chip-input {
+		margin-left: 4px !important;
+	}
+}
+
+findqo-location-search-dialog {
+	overflow: hidden;
+
+	.mat-mdc-list-base {
+		max-height: calc(100vh - 200px) !important;
+		overflow: scroll;
+	}
+}
+
+.location-filter-dialog {
+	div.mat-mdc-autocomplete-panel {
+		max-height: 100% !important;
+	}
+}
+
+.mdc-list-item__primary-text {
+	width: 99%;
+}
+
+.mat-mdc-select-panel {
+	&.price,
+	&.bedroomCount {
+		min-width: 300px !important;
+	}
+
+	&.stand {
+		min-width: 200px !important;
+	}
+}
+
+.filter-count .mat-badge-content {
+	right: 0 !important;
+	height: 20px;
+	width: 25px !important;
+}
+
+.hidden-badge .mat-badge-content {
+	display: none !important;
+}
+
+// making z-index lower that header, so that dropdown overlays not come above header
+.cdk-overlay-container {
+	&:has(.stand),
+	&:has(.location-filter),
+	&:has(.bedroomCount),
+	&:has(.price),
+	&:has(.propertySize) {
+		z-index: 98 !important;
+	}
+}

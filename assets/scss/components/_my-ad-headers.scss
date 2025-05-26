@@ -1,0 +1,49 @@
+findqo-my-ad-headers-v2 {
+	.mat-mdc-tab.mdc-tab {
+		height: 50px;
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 400;
+		color: var(--general-5);
+
+		&:hover {
+			color: var(--general-5) !important;
+		}
+	}
+
+	.mat-mdc-tab .mdc-tab__text-label {
+		color: var(--general-5) !important;
+	}
+
+	.mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label {
+		color: var(--prim-2) !important;
+	}
+
+	.mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label .my-ads-count {
+		color: var(--prim-2) !important;
+	}
+
+	.mdc-tab__ripple {
+		display: none;
+	}
+
+	.mat-mdc-tab-header-pagination-controls-enabled .mat-mdc-tab-header-pagination {
+		padding: 8px !important;
+	}
+
+	@include media-breakpoint-down(sm) {
+		.mat-mdc-tab-header-pagination {
+			min-width: 10px !important;
+		}
+
+		.mat-mdc-tab-label-container {
+			overflow: auto !important;
+			-ms-overflow-style: none;
+			scrollbar-width: none;
+		}
+
+		.mat-mdc-tab-label-container::-webkit-scrollbar {
+			display: none;
+		}
+	}
+}

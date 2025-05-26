@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/shared/findqo-ad/findqo-ad.component.scss"],
+  "sourcesContent": ["div {\n\tcursor: pointer;\n}\n"],
+  "mappings": ";AAAA;AACC,UAAA;;",
+  "names": []
+}

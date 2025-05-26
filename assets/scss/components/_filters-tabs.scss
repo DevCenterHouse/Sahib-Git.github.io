@@ -1,0 +1,48 @@
+findqo-filters-tabs {
+	// Tab
+	.mdc-tab__ripple {
+		display: none;
+	}
+
+	.mat-mdc-tab-label-container {
+		@extend .text-title-16px-medium;
+
+		text-transform: capitalize;
+	}
+
+	.mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label {
+		color: var(--general-1) !important;
+	}
+
+	.mat-mdc-tab .mdc-tab__text-label {
+		color: var(--general-2) !important;
+	}
+
+	.mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline {
+		border-color: var(--general-1) !important;
+	}
+
+	.mat-mdc-tab-labels {
+		justify-content: center;
+		margin-bottom: 1.5rem !important;
+
+		@include media-breakpoint-up(lg) {
+			gap: 1.5rem;
+		}
+	}
+
+	.mat-mdc-tab-group.mat-mdc-tab-group-stretch-tabs > .mat-mdc-tab-header .mat-mdc-tab {
+		flex-grow: 1;
+
+		@include media-breakpoint-up(lg) {
+			width: 130px;
+			flex-grow: unset;
+		}
+	}
+	// end - Tab
+
+	// Select
+	mat-select .mat-mdc-select-placeholder {
+		color: var(--general-5);
+	}
+}

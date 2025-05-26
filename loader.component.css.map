@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/findqo-ireland/src/app/core/components/loader/loader.component.scss"],
+  "sourcesContent": ["mat-progress-bar {\n\tposition: absolute !important;\n\ttop: 0;\n\tleft: 0;\n\tz-index: var(--z-index-progress-bar);\n}\n"],
+  "mappings": ";AAAA;AACC,YAAA;AACA,OAAA;AACA,QAAA;AACA,WAAA,IAAA;;",
+  "names": []
+}
